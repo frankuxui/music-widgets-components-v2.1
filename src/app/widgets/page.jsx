@@ -1,16 +1,8 @@
-import './App.css'
-import AppLogo from './components/app-logo'
-import ThemeSwitch from './components/theme-switch'
-import Views from './components/Views'
+import Views from '@/components/Views'
 
-const App = () => {
+export default function Page () {
   return (
     <main className='min-h-screen w-full mt-6'>
-      <header className='px-6 w-full flex items-center justify-between'>
-        <AppLogo />
-        <ThemeSwitch />
-      </header>
-
       <div className="fixed pointer-events-none z-0 left-0 -top-20 w-[30rem] h-[30rem] bg-emerald-500/20 blur-3xl" />
       <div className="fixed pointer-events-none z-0 left-[20%] -top-20 w-[20rem] h-[20rem] bg-rose-500/10 blur-3xl" />
       <div className="fixed pointer-events-none z-0 left-[50%] -top-20 w-[50rem] h-[50rem] bg-indigo-500/10 blur-3xl" />
@@ -2170,5 +2162,3 @@ const App = () => {
     </main>
   )
 }
-
-export default App

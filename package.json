@@ -1,23 +1,24 @@
 {
-  "name": "music-widgets-components-v2.1",
+  "name": "music-widgets-components",
+  "version": "0.1.0",
   "private": true,
-  "version": "1.0.0",
   "scripts": {
-    "dev": "rsbuild dev --open",
-    "build": "rsbuild build --output public",
-    "preview": "rsbuild preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "next": "14.2.8",
+    "react": "^18",
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
-    "@rsbuild/core": "1.0.1-rc.3",
-    "@rsbuild/plugin-react": "1.0.1-rc.3",
     "eslint": "^9.9.1",
     "eslint-plugin-react": "^7.35.2",
     "globals": "^15.9.0",
-    "tailwindcss": "^3.4.10"
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
   }
 }
