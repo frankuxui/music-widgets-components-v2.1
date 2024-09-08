@@ -84,7 +84,7 @@ export default function ThemeSwitch () {
     <button
       aria-label='Switch theme'
       data-testid='switch-theme'
-      className='group h-12 w-12 p-3 rounded-full inline-flex items-center justify-center overflow-hidden transition-colors duration-300 bg-gray-100 hover:bg-gray-200 focus:bg-gray-300 dark:bg-gray-900 dark:hover:bg-gray-800 dark:focus:bg-gray-700 ring-4 ring-white dark:ring-gray-950'
+      className='group h-12 w-12 p-3 rounded-full inline-flex items-center justify-center overflow-hidden transition-colors duration-300 bg-gray-100 hover:bg-gray-200 focus:bg-gray-300 dark:bg-gray-900 dark:hover:bg-gray-800 dark:focus:bg-gray-700 ring-4 ring-white dark:ring-gray-950 '
       onClick={handleTheme}
     >
 

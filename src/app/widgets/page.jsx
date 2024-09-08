@@ -7,7 +7,7 @@ export default function Page () {
 
       <div className="relative z-10 min-h-screen expo !mt-6">
 
-        <article className='relative flex flex-col items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+        <article className='relative flex flex-col items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
           <div className='w-full flex flex-col gap-2'>
             <div className='w-full flex items-end h-8 gap-0.5'>
               <div className='w-1 h-[10%] rounded bg-blue-600' />
@@ -66,26 +66,26 @@ export default function Page () {
             </div>
           </div>
           <section className='flex items-center w-full justify-between gap-2'>
-            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 transition-colors duration-300 bg-gray-200 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-800'>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 dark:focus:ring-blue-700 transition-colors duration-300 bg-gray-200 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-800'>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="currentColor" d="M5 7h2c.55 0 1 .45 1 1v8c0 .55-.45 1-1 1s-1-.45-1-1V9H5c-.55 0-1-.45-1-1s.45-1 1-1m10.83 4.72l1.92-3.21A.997.997 0 0 0 16.9 7a.99.99 0 0 0-.86.49l-1.37 2.28l-1.38-2.29c-.18-.3-.5-.48-.85-.48c-.78 0-1.26.85-.86 1.51l1.92 3.21l-2.26 3.77c-.4.67.08 1.51.86 1.51c.35 0 .68-.18.86-.49l1.71-2.85l1.71 2.85c.18.3.51.49.86.49h.01c.78 0 1.26-.85.86-1.51z"></path></svg>
             </button>
-            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 transition-colors duration-300 bg-white dark:bg-gray-950 hover:bg-gray-200 dark:hover:bg-gray-800'>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 dark:focus:ring-blue-700 transition-colors duration-300 bg-white dark:bg-gray-950 hover:bg-gray-200 dark:hover:bg-gray-800'>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} color="currentColor"><path d="m12 5l-1.104-1.545c-.41-.576-.617-.864-.487-1.13c.13-.268.46-.283 1.12-.314Q11.763 2 12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12a9.99 9.99 0 0 1 4-8"></path><path d="M8 11c.528-.42 1.008-1.113 1.308-.984c.3.128.204.552.204 1.212v4.776M16 10h-2.64a.5.5 0 0 0-.49.402l-.366 2.102c.636-.264.957-.361 1.673-.361c1.036 0 1.927.637 1.825 1.957c.018 1.56-1.242 1.92-1.825 1.9c-.584-.02-1.517.2-1.677-1"></path></g></svg>
             </button>
             <button className='flex-none inline-flex items-center justify-center rounded-full w-12 h-12 border-2 border-blue-700'>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 26 26"><path fill="currentColor" d="M7 5c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1zm9 0c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1z"></path></svg>
             </button>
-            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 transition-colors duration-300 bg-white dark:bg-gray-950 hover:bg-gray-200 dark:hover:bg-gray-800'>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent focus:ring-blue-700 dark:focus:ring-blue-700 transition-colors duration-300 bg-white dark:bg-gray-950 hover:bg-gray-200 dark:hover:bg-gray-800'>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} color="currentColor"><path d="m12 5l1.104-1.545c.41-.576.617-.864.487-1.13c-.13-.268-.46-.283-1.12-.314Q12.237 2 12 2C6.477 2 2 6.477 2 12s4.477 10 10 10s10-4.477 10-10a9.99 9.99 0 0 0-4-8"></path><path d="M16.752 12.6c0-1.38.066-1.752-.198-2.196s-.924-.406-1.584-.406s-1.14-.038-1.458.322c-.39.42-.222 1.2-.27 2.28c.108 1.44-.186 2.58.264 3.06c.324.396.9.336 1.584.348c.68-.008 1.092.024 1.428-.36c.372-.336.192-1.668.234-3.048m-9.504-1.476c.132-1.044.972-1.164 1.812-1.122c.66-.03 1.68.018 1.692 1.518c-.012 1.56-1.248 1.451-1.248 1.476s1.296-.036 1.248 1.524C10.74 15.9 9.84 16.044 9 15.996c-.84.06-1.62-.156-1.752-1.116"></path></g></svg>
             </button>
-            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent text-rose-600 focus:ring-blue-700 transition-colors duration-300 bg-gray-200 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-800'>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 ring-2 ring-transparent text-rose-600 focus:ring-blue-700 dark:focus:ring-blue-700 transition-colors duration-300 bg-gray-200 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-800'>
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path fill="currentColor" d="M256 448a32 32 0 0 1-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8c-40-48.75-59.15-98.8-58.61-153C48.63 114.52 98.46 64 159.08 64c44.08 0 74.61 24.83 92.39 45.51a6 6 0 0 0 9.06 0C278.31 88.81 308.84 64 352.92 64c60.62 0 110.45 50.52 111.08 112.64c.54 54.21-18.63 104.26-58.61 153c-18.77 22.87-52.8 59.45-131.39 112.8a32 32 0 0 1-18 5.56"></path></svg>
             </button>
           </section>
         </article>
 
         <section className='grid grid-cols-2 gap-3'>
-          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
             <div className="absolute z-0 pointer-events-none left-1/2 top-0 w-14 h-14 bg-indigo-500/30 blur-2xl" />
             <div className="absolute z-0 pointer-events-none left-0 bottom-0 w-14 h-14 bg-rose-500/20 blur-2xl" />
             <div className='flex flex-col w-full gap-3'>
@@ -118,7 +118,7 @@ export default function Page () {
               </section>
             </div>
           </article>
-          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
             <div className='flex flex-col w-full gap-3'>
               <div className='w-full flex items-start justify-between'>
                 <div className='relative'>
@@ -155,7 +155,7 @@ export default function Page () {
         </section>
 
         <section className="grid grid-cols-2 gap-3" data-filter="multimedia">
-          <article className="relative flex items-center justify-between border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+          <article className="relative flex items-center justify-between border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
             <img
               src="https://images.pexels.com/photos/11911967/pexels-photo-11911967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               data-author="Damir Hu"
@@ -186,7 +186,7 @@ export default function Page () {
               </div>
             </div>
           </article>
-          <article className="relative flex flex-col items-center justify-between border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+          <article className="relative flex flex-col items-center justify-between border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
             <div className="relative">
               <button className="absolute right-2 top-2 flex items-center justify-center hover:bg-white text-white hover:text-black rounded-full p-1 transition-colors duration-200">
                 <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -214,7 +214,7 @@ export default function Page () {
           </article>
         </section>
 
-        <article className='relative flex flex-col items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+        <article className='relative flex flex-col items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
           <div className="z-0 pointer-events-none absolute left-1/2 top-0 w-14 h-14 bg-rose-500/30 blur-2xl" />
           <div className="z-0 pointer-events-none absolute right-0 top-0 w-14 h-14 bg-yellow-500/40 blur-2xl" />
           <div className="z-0 pointer-events-none absolute left-0 top-1/2 w-14 h-14 bg-emerald-500/40 blur-3xl" />
@@ -309,7 +309,7 @@ export default function Page () {
           </section>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='flex items-center w-full justify-between gap-4'>
             <h2 className='flex-none px-2 py-1.5 rounded font-medium text-xs w-full truncate max-w-32 bg-gray-200 dark:bg-gray-900'>Giant with Rag n Bone Man</h2>
             <div className='inline-flex items-center justify-end gap-2 flex-1'>
@@ -339,7 +339,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='relative border rounded h-8 inline-flex items-center w-full overflow-hidden dark:border-gray-900'>
             <div className='absolute top-0 left-0 w-1/2 h-full pointer-events-none bg-gradient-to-r from-emerald-200/40 to-violet-400/10' />
             <div className='w-full h-full relative py-1 px-1.5 flex items-center justify-between'>
@@ -353,7 +353,7 @@ export default function Page () {
         </article>
 
         <section className='grid grid-cols-2 gap-3'>
-          <article className='relative flex flex-col items-start justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-black border-transparent' >
+          <article className='relative flex flex-col items-start justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-black border-transparent' >
             <button className='absolute top-4 right-4 w-8 h-8 rounded-full inline-flex flex-none items-center justify-center transition-colors duration-300 text-white hover:bg-white/10 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-emerald-600'>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth={3.75} d="M12.01 12v.01H12V12zm7 0v.01H19V12zm-14 0v.01H5V12z"></path></svg>
             </button>
@@ -391,7 +391,7 @@ export default function Page () {
               </button>
             </section>
           </article>
-          <article className='relative flex flex-col items-start justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-black border-transparent' >
+          <article className='relative flex flex-col items-start justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-black border-transparent' >
             <button className='absolute top-4 right-4 w-8 h-8 rounded-full inline-flex flex-none items-center justify-center transition-colors duration-300 text-white hover:bg-white/10 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-amber-500'>
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth={3.75} d="M12.01 12v.01H12V12zm7 0v.01H19V12zm-14 0v.01H5V12z"></path></svg>
             </button>
@@ -482,7 +482,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='relative w-full px-4 pb-4 pt-14 rounded-xl bg-black flex flex-col text-xs'>
             <figure className="absolute -top-6 left-4 w-16 h-16 rounded-full overflow-hidden border-4 border-white dark:border-gray-950">
               <img
@@ -503,22 +503,22 @@ export default function Page () {
                 </div>
               </button>
               <div className='flex justify-between items-center gap-1'>
-                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white dark:bg-gray-800'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
                   </svg>
                 </button>
-                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white dark:bg-gray-800'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
                   </svg>
                 </button>
-                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white dark:bg-gray-800'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
                   </svg>
                 </button>
-                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 transition-colors duration-300 bg-white dark:bg-gray-800'>
                   <svg width='18' height='18' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
                   </svg>
@@ -642,7 +642,7 @@ export default function Page () {
           </article>
         </section>
 
-        <article className="border shadow-md break-inside relative overflow-hidden flex items-center justify-between rounded p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+        <article className="border shadow-md break-inside relative overflow-hidden flex items-center justify-between rounded-lg p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
           <div className="absolute left-1/2 top-0 w-14 h-14 bg-rose-500/30 blur-2xl"></div>
           <header className="flex items-center gap-3">
             <span className="text-xs font-semibold">02</span>
@@ -659,7 +659,7 @@ export default function Page () {
           </button>
         </article>
 
-        <article className='group relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='group relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <img
             src="https://images.pexels.com/photos/2063352/pexels-photo-2063352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             data-author="Brett Sayles"
@@ -721,7 +721,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='w-full flex justify-between items-center'>
             <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800'>
               <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
@@ -751,7 +751,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='grid w-full gap-3'>
             <div className='w-full flex items-center justify-between gap-4'>
               <div className='flex items-center gap-3'>
@@ -862,7 +862,7 @@ export default function Page () {
         </section>
 
         <section className='grid grid-cols-2 gap-3'>
-          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
             <div className='flex flex-col w-full gap-3'>
               <div className='w-full flex items-start justify-between'>
                 <img
@@ -889,7 +889,7 @@ export default function Page () {
               </section>
             </div>
           </article>
-          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
             <div className='flex flex-col w-full gap-3'>
               <div className='w-full flex items-start justify-between'>
                 <img
@@ -1028,7 +1028,7 @@ export default function Page () {
           </div>
         </section>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside pt-10 rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside pt-10 rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <img
             src="https://images.pexels.com/photos/9106374/pexels-photo-9106374.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             data-author="Bryce Carithers"
@@ -1510,7 +1510,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='flex items-start flex-1 gap-4'>
             <button type='button' className='flex-none inline-flex items-center justify-center rounded-full w-9 h-9 bg-blue-600'>
               <svg className='w-4 h-4' viewBox='0 0 15 15' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -1525,7 +1525,7 @@ export default function Page () {
           <span className='flex-none text-xs font-medium text-gray-600 dark:text-gray-400'>30:45</span>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className="absolute left-0 top-0 w-10 h-8 z-0 bg-rose-500/60 blur-2xl" />
           <div className='flex items-start flex-1 gap-4 relative z-[1]'>
             <button type='button' className='flex-none inline-flex items-center justify-center rounded-full w-9 h-9 bg-indigo-600 text-white' data-play='true'>
@@ -1544,7 +1544,7 @@ export default function Page () {
         </article>
 
         <section className='grid grid-cols-2 gap-3 break-inside'>
-          <article className='relative border shadow-sm rounded mb-3 text-sm overflow-hidden break-inside bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+          <article className='relative border shadow-sm rounded-lg mb-3 text-sm overflow-hidden break-inside bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
             <div className='relative w-full h-32 overflow-hidden'>
               <img
                 src='https://images.pexels.com/photos/3756771/pexels-photo-3756771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
@@ -1567,7 +1567,7 @@ export default function Page () {
               </div>
             </div>
           </article>
-          <article className='relative shadow-sm rounded mb-3 text-sm overflow-hidden break-inside bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+          <article className='relative shadow-sm rounded-lg mb-3 text-sm overflow-hidden break-inside bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
             <button className='absolute bottom-4 right-4 rounded-full w-9 h-9 -mt-10 flex items-center justify-center bg-white text-black'>
               <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' className='w-4 h-4'>
                 <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
@@ -1584,7 +1584,7 @@ export default function Page () {
           </article>
         </section>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='grid flex-1 p-4'>
             <div className='font-bold text-base leading-5'>New <br /> Releases</div>
           </div>
@@ -1598,7 +1598,7 @@ export default function Page () {
           />
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className="absolute right-0 top-0 w-14 h-14 z-0 pointer-events-none bg-lime-500/40 blur-2xl" />
           <div className='flex-1'>
             <h2 className='font-medium text-xs'>Best music</h2>
@@ -1614,7 +1614,7 @@ export default function Page () {
           />
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='flex items-center gap-3 flex-1'>
             <div className='relative w-11 h-11 overflow-hidden rounded-full'>
               <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-black/20'>
@@ -1652,7 +1652,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='flex items-center gap-3 flex-1'>
             <div className='relative w-11 h-11 overflow-hidden rounded-full'>
               <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-black/20'>
@@ -1690,7 +1690,132 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+          <div className="pointer-events-none z-0 absolute right-0 bottom-0 w-14 h-14 bg-indigo-500/30 blur-2xl" />
+          <div className="pointer-events-none z-0 absolute left-0 bottom-0 w-14 h-14 bg-green-500/40 blur-2xl" />
+          <div className='relative grid place-items-center w-full gap-3'>
+            <button className='absolute right-4 top-4 flex items-center justify-center w-9 h-9 transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-violet-600'>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+            <img
+              className='flex-none w-20 h-20 rounded-full object-cover'
+              src='https://images.pexels.com/photos/3756774/pexels-photo-3756774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+              data-author='Sound On'
+              data-author-profile='https://www.pexels.com/es-es/@sound-on/'
+              alt='album cover'
+              loading="lazy"
+            />
+            <div className='w-full text-center grid'>
+              <h5 className='text-lg font-medium'>Sunshine sound</h5>
+              <p className='text-gray-500'>Lookee Stefane</p>
+            </div>
+            <div className='w-full flex items-center justify-between space-x-4'>
+              <span className='text-xs font-semibold'>03:34</span>
+              <div className='relative rounded-full flex-1 h-1 bg-gray-200 dark:bg-gray-800'>
+                <div className='absolute rounded-full left-0 w-1/2 h-full bg-violet-600 ' />
+                <div className='absolute rounded-full top-1/2 -translate-y-1/2 h-3 w-3 right-1/2 bg-violet-600 ' />
+              </div>
+              <span className='text-xs font-semibold'>08:14</span>
+            </div>
+            <div className='w-full flex justify-between items-center'>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-violet-600'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-violet-600'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 bg-violet-600 text-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-violet-600'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:ring-violet-600'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+          <div className="pointer-events-none z-0 absolute right-0 bottom-0 w-14 h-14 bg-indigo-500/30 blur-2xl" />
+          <div className="pointer-events-none z-0 absolute left-0 bottom-0 w-14 h-14 bg-green-500/40 blur-2xl" />
+          <div className='relative grid place-items-center w-full gap-3'>
+            <div className='relative w-full h-24'>
+              <button className='absolute z-10 right-4 top-4 flex items-center justify-center w-9 h-9 transition-colors duration-300 rounded-full text-white hover:bg-white/10 focus:bg-white/20'>
+                <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+                </svg>
+              </button>
+              <img
+                className='flex-none w-full h-full object-cover'
+                src='https://images.pexels.com/photos/1125744/pexels-photo-1125744.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+                data-author='Brett Sayles'
+                data-author-profile='https://www.pexels.com/es-es/@brett-sayles/'
+                alt='album cover'
+                loading="lazy"
+              />
+            </div>
+            <div className='relative z-[1] -mt-10'>
+              <div className="inline-block relative w-16 h-16 rounded-full p-[2px]">
+                <img className="flex-none rounded-full w-full h-full object-cover relative border-4 border-white dark:border-gray-950 shadow-xl" src="https://randomuser.me/api/portraits/men/30.jpg" alt="avatar" loading="lazy" />
+              </div>
+            </div>
+            <div className='w-full text-center grid px-4'>
+              <h5 className='text-lg font-semibold'>Sweet Summer Days</h5>
+              <p className='text-gray-500'>Lounge Groove Avenue</p>
+            </div>
+            <div className='w-full flex items-center justify-between space-x-4 px-4'>
+              <span className='text-xs font-semibold'>03:34</span>
+              <div className='relative rounded-full flex-1 h-1 bg-gray-200 dark:bg-gray-800'>
+                <div className='absolute rounded-full left-0 w-1/2 h-full bg-black dark:bg-white' />
+                <div className='absolute rounded-full top-1/2 -translate-y-1/2 h-3 w-3 right-1/2 bg-black dark:bg-white' />
+              </div>
+              <span className='text-xs font-semibold'>08:14</span>
+            </div>
+            <div className='w-full flex justify-between items-center p-4'>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:focus:ring-black dark:focus:ring-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:focus:ring-black dark:focus:ring-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 bg-black text-white dark:bg-white dark:text-black'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M8,5.14V19.14L19,12.14L8,5.14Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:focus:ring-black dark:focus:ring-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+                </svg>
+              </button>
+              <button className='flex justify-center items-center rounded-full w-9 h-9 transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-800 ring-2 ring-transparent focus:focus:ring-black dark:focus:ring-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className="absolute left-1/2 top-0 w-14 h-14 bg-indigo-500/30 blur-2xl" />
           <div className="absolute right-0 top-0 w-14 h-14 bg-green-500/40 blur-2xl" />
           <div className='grid place-items-center w-full gap-3'>
@@ -1748,7 +1873,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='grid w-full gap-3'>
             <div className='w-full flex items-center justify-between gap-4'>
               <div className='flex items-center gap-3'>
@@ -1777,7 +1902,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative grid grid-cols-12 shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-indigo-600 text-white'>
+        <article className='relative grid grid-cols-12 shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-indigo-600 text-white'>
           <div className="absolute right-0 top-0 w-14 h-14 z-0 pointer-events-none bg-pink-600/80 blur-2xl" />
           <div className='relative w-full h-full col-span-5'>
             <span className='absolute right-2 top-2 rounded text-xs py-1 px-2 text-white bg-[black]'>April, 2018 </span>
@@ -1803,7 +1928,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden border-emerald-200 bg-white dark:bg-gray-950 dark:text-white dark:border-emerald-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden border-emerald-200 bg-white dark:bg-gray-950 dark:text-white dark:border-emerald-900'>
           <div className='absolute top-0 bottom-0 left-0 w-full max-w-[8rem] pointer-events-none bg-gradient-to-r from-amber-400/10 to-emerald-500/10' />
           <div className='relative z-[1] flex items-center gap-3'>
             <img
@@ -1827,7 +1952,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='flex items-center space-x-4 pr-4 text-sm'>
             <div className='flex-none flex items-center justify-center w-11 h-11 rounded-full font-semibold bg-blue-700 text-white'>RO</div>
             <div className='flex-auto grid'>
@@ -1845,7 +1970,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative grid grid-cols-12 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative grid grid-cols-12 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <img
             className='col-span-3 w-full h-full flex-none object-cover'
             src='https://images.pexels.com/photos/2240771/pexels-photo-2240771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
@@ -1888,7 +2013,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='relative'>
             <div className='flex items-center justify-between gap-2 absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-black to-transparent text-white'>
               <div className='flex items-center flex-row justify-between'>
@@ -1911,7 +2036,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden border-transparent bg-white dark:bg-gray-950 dark:text-white'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden border-transparent bg-white dark:bg-gray-950 dark:text-white'>
           <div className='relative'>
             <img
               src='https://images.pexels.com/photos/2079169/pexels-photo-2079169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
@@ -2050,6 +2175,67 @@ export default function Page () {
           </div>
         </article>
 
+        <article className="relative border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+          <div className='relative col-span-4'>
+            <img
+              className="w-full max-w-full h-full max-h-[7rem] object-cover gap-4"
+              src="https://images.pexels.com/photos/2114758/pexels-photo-2114758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              data-author="Kevin Bidwell"
+              data-author-profile="https://www.pexels.com/es-es/@kevinbidwell/"
+              loading="lazy"
+            />
+            <span className='absolute bottom-3 left-3 rounded inline-flex items-center justify-center font-medium text-xs px-2 h-6 bg-black text-white'>NEW</span>
+          </div>
+          <div className="p-4 flex flex-col justify-between col-span-8">
+            <div className='flex items-center justify-between gap-4 mb-auto'>
+              <div className="relative z-[1] grid flex-1">
+                <a href="#" className="text-sm font-semibold block">David Martín</a>
+                <p className="text-xs truncate text-gray-600 dark:text-gray-400">The best music for your ears</p>
+              </div>
+              <button className='inline-flex items-center justify-center z-[1] w-8 h-8 flex-none rounded-full bg-black  text-white dark:bg-white dark:text-black'>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 26 26"><path fill="currentColor" d="M7 5c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1zm9 0c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1z"></path></svg>
+              </button>
+            </div>
+            <div className='w-full flex items-end h-6 gap-0.5'>
+              <div className='w-1 h-[10%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[20%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[40%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[40%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[50%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[60%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[70%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[40%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[60%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[80%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[45%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[88%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[70%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[20%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[30%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[40%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[50%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[45%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[58%] rounded bg-black dark:bg-white' />
+              <div className='w-1 h-[46%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[35%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[30%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[40%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[50%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[60%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[80%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[70%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[60%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[50%] rounded bg-gray-300 dark:bg-gray-800' />
+              <div className='w-1 h-[40%] rounded bg-gray-300 dark:bg-gray-800' />
+            </div>
+          </div>
+        </article>
+
         <article className="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" >
           <div className="col-span-4">
             <img
@@ -2161,7 +2347,7 @@ export default function Page () {
           </article>
         </section>
 
-        <article className='relative flex items-center flex-col justify-between gap-4 border shadow-sm break-inside rounded-md mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center flex-col justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='relative w-full h-full flex flex-col justify-between min-h-[24rem] bg-[#3400de] text-white'>
             <img
               src="https://images.pexels.com/photos/7586585/pexels-photo-7586585.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -2552,7 +2738,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='relative'>
             <div className='flex flex-col justify-between gap-2 absolute bottom-0 left-0 w-full h-full p-4 bg-gradient-to-t from-black to-transparent text-white'>
               <div className='w-full flex items-center justify-between'>
@@ -2581,7 +2767,7 @@ export default function Page () {
           </div>
         </article>
 
-        <article className='relative flex items-center flex-col justify-between gap-4 border shadow-sm break-inside rounded-md mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <article className='relative flex items-center flex-col justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
           <div className='absolute bottom-0 left-0 w-full z-20'>
             <div className='flex flex-col rounded-t-3xl p-4 backdrop-blur-sm bg-black/80 text-white'>
               <div className='absolute left-1/2 -translate-x-1/2 w-11 h-1 cursor-n-resize rounded-lg bg-white' />
