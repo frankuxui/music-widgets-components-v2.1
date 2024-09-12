@@ -3,27 +3,32 @@ import Link from 'next/link'
 
 export default function Home () {
   return (
-    <div className='w-full h-screen overflow-hidden'>
+    <div className='w-full h-screen '>
       <section className="overflow-hidden w-full mx-auto max-w-full">
-        <div className="w-full flex items-start justify-between mx-auto gap-4">
-          <div className="flex flex-col items-end w-full px-6 pb-20 dark:text-white">
-            <div className="flex flex-col items-start flex-none w-full md:w-[45rem] pt-28">
-              <h1 className="font-extrabold !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl">
+        <div className="w-full flex items-start justify-between mx-auto gap-4 xl:gap-8">
+          <div className="flex flex-col items-end w-full px-6 2xl:px-0 pb-20 dark:text-white ">
+            <div className="flex flex-col items-start flex-none w-full md:w-[35rem] xl:w-[45rem] pt-28 4xl:w-[60rem]">
+              <h1 className="inline w-full font-extrabold !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl 4xl:text-8xl">
+                <span>Music widgets components</span>
+                <br />
+                with <span className="inline bg-gradient-to-r from-cyan-500 via-cyan-500 to-green-500 text-transparent bg-clip-text">Tailwind CSS</span>
+              </h1>
+              {/* <h1 className="w-full font-extrabold !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-5xl 3xl:text-7xl">
                 <span className="text-rose-500">Music</span> <span className="mx-1">widgets</span>
                 <br />
                 <span className="text-indigo-700">components</span> <span className="mx-1">with</span>
                 <br />
                 <span className="bg-gradient-to-r from-cyan-500 via-cyan-500 to-green-500 block text-transparent bg-clip-text">Tailwind CSS</span>
-              </h1>
-              <p className="mt-4 sm:mt-8 text-xl md:text-2xl">This collection of music widget components built with Tailwind CSS allows you to easily integrate custom music controls into your web applications. Designed with a minimalist approach, these widgets are highly customizable and adaptable to any project. Enhance the user experience with a modern and functional design that fits seamlessly on any device.</p>
+              </h1> */}
+              <p className="mt-4 sm:mt-8 text-lg sm:text-xl">This collection of music widget components built with Tailwind CSS allows you to easily integrate custom music controls into your web applications. Designed with a minimalist approach, these widgets are highly customizable and adaptable to any project. Enhance the user experience with a modern and functional design that fits seamlessly on any device.</p>
               <div className="flex items-center justify-start gap-1 sm:gap-3">
                 <Link
                   href="/widgets"
-                  className="hoverable mt-8 px-3 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl bg-indigo-700 text-white hover:bg-indigo-600">
+                  className="hoverable mt-8 px-3 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl bg-gray-900 dark:bg-gray-800 text-white hover:bg-indigo-600 dark:hover:bg-indigo-600">
                   <span>Explore widgets</span>
                   <span className="transition-all duration-500 -translate-x-0 group-hover:translate-x-2">
                     <svg width="22" height="22" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                      <path clip-rule="evenodd" fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"></path>
+                      <path clipRule="evenodd" fillRule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"></path>
                     </svg>
                   </span>
                 </Link>
