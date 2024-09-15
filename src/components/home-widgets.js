@@ -879,12 +879,12 @@ export default function HomeWidgets () {
       {/* Row Widget content */}
       <div className="flex justify-start w-full gap-3">
 
-        <div className="grid w-[260px] gap-3">
-          <article className='relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
+        <div className="grid w-[260px] gap-3 items-start">
+          <article className='relative flex items-start justify-between gap-4 border shadow-sm break-inside rounded-lg text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900'>
             <div className="pointer-events-none z-0 absolute right-0 bottom-0 w-14 h-14 bg-indigo-500/30 blur-2xl" />
             <div className="pointer-events-none z-0 absolute left-0 bottom-0 w-14 h-14 bg-green-500/40 blur-2xl" />
             <div className='relative grid place-items-center w-full gap-2'>
-              <div className='relative w-full h-20'>
+              <div className='relative w-full h-[150px]'>
                 <button className='absolute z-10 right-4 top-4 flex items-center justify-center w-9 h-9 transition-colors duration-300 rounded-full text-white hover:bg-white/10 focus:bg-white/20'>
                   <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                     <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
@@ -1063,11 +1063,28 @@ export default function HomeWidgets () {
                 </section>
               </article>
             </section>
+            <article className="relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded-lg p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+              <div className='flex items-center justify-start gap-4'>
+                <div className='rounded-md border inline-flex items-center justify-center w-9 h-9 bg-gray-200 text-black border-gray-300 dark:bg-gray-900 dark:border-gray-800 dark:text-gray-100'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 56 56"><path fill="currentColor" d="M41.097 13.856c4.8 0 7.26 2.34 7.357 6.978l.003.287v27c0 4.728-2.337 7.163-6.395 7.263l-.262.003H14.285c-4.778 0-7.26-2.319-7.357-6.978l-.003-.288v-27c0-4.731 2.386-7.167 7.07-7.263l.29-.003zm-.047 3.773H14.355c-2.268 0-3.57 1.185-3.652 3.47l-.004.233v26.602c0 2.358 1.229 3.598 3.432 3.675l.224.004h27.398c1.562 0 2.84-1.158 2.925-3.432l.005-.247V21.332c0-2.359-1.23-3.62-3.411-3.7zm-6.982 6.237c1.07-.263 1.372.052 1.398.779l.002.112v4.16c0 1.113-.26 1.393-1.064 1.64l-.273.078l-4.965 1.188c-.456.1-.634.29-.656.954l-.002.15v7.278c0 3.077-2.058 5.263-5.093 5.263c-2.143 0-3.501-1.316-3.501-3.12c0-2.005 1.52-3.142 3.359-3.677l.206-.057l1.952-.51l.29-.086c.656-.21.813-.399.847-.942l.008-.237v-9.705c0-1.133.192-1.415.998-1.647l.276-.072zm5.014-17.042c2.262 0 3.28 1.093 3.664 3.088l.039.217H11.918c.339-2.06 1.29-3.223 3.465-3.3l.238-.005zM35.378.614c2.08 0 3.2.958 3.403 2.813l.02.21H16.065C16.2 1.716 17.274.688 19.284.617l.227-.004z"></path></svg>
+                </div>
+                <div className='grid'>
+                  <h2 className='font-bold'>Music</h2>
+                  <p className='text-xs'>876 songs</p>
+                </div>
+              </div>
+              <div className='grid gap-1'>
+                <span className='font-bold'>38 GB</span>
+                <div className='w-10 h-1 rounded-sm overflow-hidden bg-gray-200 dark:bg-gray-800'>
+                  <div className='w-1/2 h-full bg-indigo-600 dark:bg-indigo-500' />
+                </div>
+              </div>
+            </article>
 
           </div>
         </div>
 
-        <section className="w-[291px] grid mb-3 items-start">
+        <section className="w-[291px] grid mb-3 gap-3 items-start">
           <article className="relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded text-sm overflow-hidden text-white bg-black border-transparent">
             <img
               src="https://images.pexels.com/photos/3721941/pexels-photo-3721941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -1095,7 +1112,101 @@ export default function HomeWidgets () {
               </div>
             </div>
           </article>
+          <article className="relative flex items-center justify-between gap-2 border shadow-sm break-inside rounded-xl p-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+            <div className="z-0 pointer-events-none absolute right-0 top-0 w-14 h-14 bg-amber-500/40 blur-2xl" />
+            <div className="z-0 pointer-events-none absolute right-10 top-20 w-14 h-14 bg-rose-500/40 blur-2xl" />
+            <div className='flex items-center gap-3 flex-1'>
+              <img
+                src="https://images.pexels.com/photos/8512223/pexels-photo-8512223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                data-author="Big Bag Films"
+                data-author-profile="https://www.pexels.com/es-es/@bigbagfilms/"
+                alt="Photo by Big Bag Films from Pexels"
+                loading="lazy"
+                className="w-16 h-20 rounded-2xl"
+              />
+              <div>
+                <p className='text-xs trucate'>Track 01</p>
+                <h2 className='font-semibold trucate'>Hide U - Tinlicker Remix</h2>
+                <p className='text-xs trucate'>November 01, 2024</p>
+              </div>
+            </div>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 bg-black text-white bg-gradient-to-tr from-amber-500 to-red-500'>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M12.225 4.462C9.89 3.142 7 4.827 7 7.508V24.5c0 2.682 2.892 4.368 5.226 3.045l14.997-8.498c2.367-1.341 2.366-4.751 0-6.091z"></path></svg>
+            </button>
+          </article>
+
+          <article className="relative flex items-center justify-between gap-2 border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+            <div className="z-0 pointer-events-none absolute right-0 top-0 w-14 h-14 bg-violet-500/40 blur-2xl" />
+            <div className="z-0 pointer-events-none absolute right-10 top-20 w-14 h-14 bg-amber-500/40 blur-2xl" />
+            <div className='flex items-center gap-3 flex-1'>
+              <img
+                src="https://images.pexels.com/photos/10090490/pexels-photo-10090490.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                data-author="Danny Doneo"
+                data-author-profile="https://www.pexels.com/es-es/@ddoneo/"
+                alt="Photo by Danny Doneo from Pexels"
+                loading="lazy"
+                className="w-16 h-16 rounded-2xl"
+              />
+              <div className='grid place-items-start'>
+                <span className='px-1.5 h-5 font-semibold text-xs bg-gradient-to-r inline-flex rounded justify-center items-center uppercase from-amber-400 to-yellow-400'>NEW</span>
+                <h2 className='mt-1 font-semibold trucate'>Radio Remix</h2>
+                <p className='text-xs trucate'>November 01, 2024</p>
+              </div>
+            </div>
+            <button className='flex-none inline-flex items-center justify-center rounded-full w-8 h-8 bg-black text-white bg-gradient-to-tr from-rose-500 to-amber-500'>
+              <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 32 32"><path fill="currentColor" d="M12.225 4.462C9.89 3.142 7 4.827 7 7.508V24.5c0 2.682 2.892 4.368 5.226 3.045l14.997-8.498c2.367-1.341 2.366-4.751 0-6.091z"></path></svg>
+            </button>
+          </article>
         </section>
+        <article className='w-[291px] h-[112px] relative flex items-center justify-between gap-4 border shadow-sm break-inside rounded p-4 mb-3 text-sm overflow-hidden bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' >
+          <div className='w-full flex items-center justify-start gap-3'>
+            <img
+              className='flex-none w-20 h-20 rounded-full object-cover'
+              src='https://images.pexels.com/photos/17413080/pexels-photo-17413080/free-photo-of-hombre-silueta-musica-concierto.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+              data-author='Riccardo Vespa'
+              data-author-profile='https://www.pexels.com/es-es/@riccardo-vespa-594469796/'
+              alt='album cover'
+              loading="lazy"
+            />
+            <div className='grid flex-1 gap-2'>
+              <div className='flex items-center justify-between gap-4'>
+                <div className='grid flex-1'>
+                  <h2 className='text-base font-semibold'>Roman RSK</h2>
+                  <p className='text-xs truncate'>The sound of the future</p>
+                </div>
+                <button className='inline-flex items-center justify-center z-[1] w-7 h-7 flex-none rounded-full bg-gradient-to-tr from-rose-500 to-amber-600 text-white'>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 26 26"><path fill="currentColor" d="M7 5c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1zm9 0c-.551 0-1 .449-1 1v14c0 .551.449 1 1 1h3c.551 0 1-.449 1-1V6c0-.551-.449-1-1-1z"></path></svg>
+                </button>
+              </div>
+              <div className='w-full flex items-center justify-between gap-3'>
+                <span className="text-xs font-semibold">01:30</span>
+                <div className='w-full flex items-center h-4 gap-0.5'>
+                  <div className='w-[2px] h-[10%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[20%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[30%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[40%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[40%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[50%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[60%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[70%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[30%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[30%] rounded bg-black dark:bg-white' />
+                  <div className='w-[2px] h-[35%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[30%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[40%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[50%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[60%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[80%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[70%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[60%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[50%] rounded bg-gray-300 dark:bg-gray-800' />
+                  <div className='w-[2px] h-[40%] rounded bg-gray-300 dark:bg-gray-800' />
+                </div>
+                <span className="text-xs font-semibold">03:45</span>
+              </div>
+            </div>
+          </div>
+        </article>
 
       </div>
 
