@@ -1,6 +1,5 @@
 import './globals.css'
 import { OPEN_GRAPH_IMAGE, SITE_AUTHOR, SITE_KEYWORDS, SITE_META_DESCRIPTION, SITE_META_TITLE, SITE_TITLE, SITE_URL } from '@/config'
-import Header from '@/components/header'
 
 export const metadata = {
   title: SITE_META_TITLE,
@@ -77,7 +76,6 @@ export default function RootLayout ({ children }) {
         <link rel='manifest' href='./manifest.json' />
       </head>
       <body>
-        <Header />
         <main className='min-h-screen w-full'>
           {children}
         </main>

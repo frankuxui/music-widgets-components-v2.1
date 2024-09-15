@@ -1,30 +1,28 @@
 import HomeWidgets from '@/components/home-widgets'
+import ThemeSwitch from '@/components/theme-switch'
 import Link from 'next/link'
 
 export default function Home () {
   return (
     <div className='w-full h-screen '>
       <section className="overflow-hidden w-full mx-auto max-w-full">
-        <div className="w-full flex items-start justify-between mx-auto gap-4 xl:gap-8">
-          <div className="flex flex-col items-end w-full px-6 2xl:px-0 pb-20 dark:text-white ">
-            <div className="flex flex-col items-start flex-none w-full md:w-[35rem] xl:w-[45rem] pt-28 4xl:w-[60rem]">
-              <h1 className="inline w-full font-extrabold !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl 4xl:text-8xl">
+        <div className="w-full flex items-center justify-between mx-auto gap-4 xl:gap-8">
+          <div className="flex flex-col items-end justify-center w-full px-6 pb-20 dark:text-white ">
+            <div className="flex flex-col items-start flex-none w-full md:w-[35rem] xl:w-[45rem] pt-10 md:pt-0 4xl:w-[60rem]">
+              <div className='block mb-4 sm:hidden'>
+                <ThemeSwitch />
+              </div>
+              <h1 className="inline w-full font-black !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl 4xl:text-8xl">
                 <span>Music widgets components</span>
                 <br />
                 with <span className="inline bg-gradient-to-r from-cyan-500 via-cyan-500 to-green-500 text-transparent bg-clip-text">Tailwind CSS</span>
               </h1>
-              {/* <h1 className="w-full font-extrabold !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-5xl 3xl:text-7xl">
-                <span className="text-rose-500">Music</span> <span className="mx-1">widgets</span>
-                <br />
-                <span className="text-indigo-700">components</span> <span className="mx-1">with</span>
-                <br />
-                <span className="bg-gradient-to-r from-cyan-500 via-cyan-500 to-green-500 block text-transparent bg-clip-text">Tailwind CSS</span>
-              </h1> */}
+
               <p className="mt-4 sm:mt-8 text-lg sm:text-xl">This collection of music widget components built with Tailwind CSS allows you to easily integrate custom music controls into your web applications. Designed with a minimalist approach, these widgets are highly customizable and adaptable to any project. Enhance the user experience with a modern and functional design that fits seamlessly on any device.</p>
-              <div className="flex items-center justify-start gap-1 sm:gap-3">
+              <div className="mt-8 flex items-center w-full sm:justify-start gap-1 sm:gap-3">
                 <Link
                   href="/widgets"
-                  className="hoverable mt-8 px-3 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl bg-gray-900 dark:bg-gray-800 text-white hover:bg-indigo-600 dark:hover:bg-indigo-600">
+                  className="flex-1 sm:flex-none hoverable px-2 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl bg-gray-900 dark:bg-gray-800 text-white hover:bg-indigo-600 dark:hover:bg-indigo-600">
                   <span>Explore widgets</span>
                   <span className="transition-all duration-500 -translate-x-0 group-hover:translate-x-2">
                     <svg width="22" height="22" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -33,8 +31,8 @@ export default function Home () {
                   </span>
                 </Link>
                 <Link
-                  href="https://github.com/frankuxui/widgets-components-v2.1"
-                  className="mt-8 px-3 md:px-8 h-12 flex gap-3 items-center justify-center transition-all duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl border text-black bg-white shadow-sm hover:shadow-md dark:border-gray-800 dark:text-white dark:bg-gray-950 dark:hover:border-gray-700">
+                  href="https://github.com/frankuxui/music-widgets-components-v2.1"
+                  className="flex-1 sm:flex-none px-2 md:px-8 h-12 flex gap-3 items-center justify-center transition-all duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl border text-black bg-white shadow-sm hover:shadow-md dark:border-gray-800 dark:text-white dark:bg-gray-950 dark:hover:border-gray-700">
                   <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                     <g>
                       <path d="M0 0h24v24H0z" fill="none"/>
@@ -43,13 +41,16 @@ export default function Home () {
                   </svg>
                   <span>View on GitHub</span>
                 </Link>
+                <div className='hidden sm:block'>
+                  <ThemeSwitch />
+                </div>
               </div>
             </div>
           </div>
           <div className="hoverable relative hidden md:flex justify-center items-center w-full">
             <div className="absolute pointer-events-none top-0 left-0 blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#89416d] to-[#da8703] dark:opacity-5" />
             <div className="absolute pointer-events-none bottom-0 left-0 blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#ecff8f] to-[#1eff00] dark:opacity-5" />
-            <div className="w-full">
+            <div className="w-full h-screen flex items-center">
               <HomeWidgets />
             </div>
           </div>
