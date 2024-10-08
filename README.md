@@ -1,6 +1,6 @@
 # Music widgets components
 
-![just-the-basics](https://github.com/frankuxui/music-widgets-components/blob/main/src/cover.jpg)
+![just-the-basics](https://music-widgets-components-v2-1.vercel.app/images/app-music-widgets-components-v2-1-opengraph-image.webp)
 
 ## Descripción
 
