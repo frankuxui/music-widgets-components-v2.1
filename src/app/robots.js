@@ -1,4 +1,4 @@
-import { SITE_URL } from '@/config'
+import { siteConfig } from '@/config'
 
 export default function robots () {
   return {
@@ -7,6 +7,6 @@ export default function robots () {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: `${SITE_URL}/sitemap.xml`,
+    sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
   }
 }

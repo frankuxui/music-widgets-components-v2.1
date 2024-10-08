@@ -1,15 +1,15 @@
-import { SITE_URL } from '@/config'
+import { siteConfig } from '@/config'
 
 export default function sitemap () {
   return [
     {
-      url: SITE_URL,
+      url: siteConfig.siteUrl,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1
     },
     {
-      url: `${SITE_URL}/widgets`,
+      url: `${siteConfig.siteUrl}/widgets`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,

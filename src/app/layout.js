@@ -1,16 +1,16 @@
 import './globals.css'
-import { OPEN_GRAPH_IMAGE, SITE_AUTHOR, SITE_KEYWORDS, SITE_META_DESCRIPTION, SITE_META_TITLE, SITE_TITLE, SITE_URL } from '@/config'
+import { siteConfig } from '@/config'
 
 export const metadata = {
-  title: SITE_META_TITLE,
-  description: SITE_META_DESCRIPTION,
-  metadataBase: new URL(SITE_URL),
+  title: siteConfig.metaTitle,
+  description: siteConfig.metaDescription,
+  metadataBase: new URL(siteConfig.siteUrl),
   alternates: {
     canonical: '/',
   },
   robots: 'follow, index',
-  authors: [ { name: SITE_AUTHOR } ],
-  keywords: SITE_KEYWORDS,
+  authors: [ { name: siteConfig.author } ],
+  keywords: siteConfig.keywords,
   icons: {
     icon: './favicon.ico',
     shortcut: './shortcut-icon.ico',
@@ -21,25 +21,25 @@ export const metadata = {
     },
   },
   appleWebApp: {
-    title: SITE_TITLE,
+    title: siteConfig.metaTitle,
     statusBarStyle: 'black',
   },
   openGraph: {
-    title: SITE_TITLE,
-    description: SITE_META_DESCRIPTION,
+    title: siteConfig.metaTitle,
+    description: siteConfig.metaDescription,
     type: 'website',
     images: [
       {
-        url: OPEN_GRAPH_IMAGE,
+        url: siteConfig.ogImage,
         width: 1440,
         height: 900,
-        alt: SITE_META_DESCRIPTION,
+        alt: siteConfig.metaDescription,
       },
       {
-        url: OPEN_GRAPH_IMAGE,
+        url: siteConfig.ogImage,
         width: 1200,
         height: 630,
-        alt: SITE_META_DESCRIPTION,
+        alt: siteConfig.metaDescription,
       }
     ],
   },
