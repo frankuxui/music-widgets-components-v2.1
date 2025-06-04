@@ -1,0 +1,58 @@
+---
+import { OPEN_GRAPH_IMAGE, SITE_TITLE, SITE_DESCRIPTION,SITE_KEYWORDS  } from '@/config'
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImage = new URL(OPEN_GRAPH_IMAGE, Astro.site?.href || "https://frankuxui.dev").href;
+
+---
+
+<!-- Global Metadata -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/png" href="/favicon.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+<link rel="sitemap" href={new URL("sitemap-index.xml", Astro.site)} />
+<link rel="alternate" type="application/rss+xml" title={SITE_TITLE} href={new URL("rss.xml", Astro.site)} />
+<meta name="generator" content={Astro.generator} />
+
+<!-- SEO Metadata -->
+<meta name="keywords" content={SITE_KEYWORDS.join(", ")} />
+<meta name="author" content="Frankuxui" />
+<meta name="application-name" content={SITE_TITLE} />
+<meta name="theme-color" content="#ffffff" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Primary Meta Tags -->
+<title>{SITE_TITLE}</title>
+<meta name="title" content={SITE_TITLE} />
+<meta name="description" content={SITE_DESCRIPTION} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={SITE_TITLE} />
+<meta property="og:description" content={SITE_DESCRIPTION} />
+<meta property="og:image" content={ogImage} />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@frankuxui" />
+<meta name="twitter:creator" content="@frankuxui" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={SITE_TITLE} />
+<meta property="twitter:description" content={SITE_DESCRIPTION} />
+<meta property="twitter:image" content={new URL(OPEN_GRAPH_IMAGE, Astro.site)} />
