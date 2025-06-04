@@ -8,7 +8,7 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
-  site: 'https://widgets-components-v2-1.vercel.app',
+  site: 'https://music-widgets-components-v2-1.vercel.app',
 
   vite: {
     plugins: [tailwindcss()]
