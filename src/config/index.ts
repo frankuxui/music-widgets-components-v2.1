@@ -1,6 +1,6 @@
 export const SITE_TITLE = 'Widgets components v2.1';
 export const SITE_DESCRIPTION = 'Desarrollado con Astro.js y Tailwind CSS, este proyecto presenta componentes reutilizables adaptados a diversas necesidades de usuario, organizados en categorías específicas. Con atractivas interfaces de usuario y soporte para temas claros y oscuros, ofrece una experiencia de usuario moderna y fluida, facilitando la personalización y escalabilidad.';
-export const OPEN_GRAPH_IMAGE = 'https://widgets-components-v2-1.vercel.app/og-image.jpg';
+export const OPEN_GRAPH_IMAGE = 'https://widgets-components-v2-1.vercel.app/open-graph.jpg';
 export const SITE_URL = 'https://widgets-components-v2-1.vercel.app';
 export const SITE_KEYWORDS = [
   'widgets',
@@ -25,7 +25,7 @@ export const SITE_KEYWORDS = [
   'music',
   'music app',
   'music player',
-  'audio player', 
+  'audio player',
   'UI',
   'UX',
   'user experience',
