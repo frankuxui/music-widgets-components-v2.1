@@ -2,7 +2,7 @@
 import { OPEN_GRAPH_IMAGE, SITE_TITLE, SITE_DESCRIPTION, SITE_KEYWORDS } from "@/config";
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const ogImage = new URL(OPEN_GRAPH_IMAGE, Astro.site?.href || "https://widgets-components-v2-1.vercel.app").href;
+const ogImage = new URL(OPEN_GRAPH_IMAGE, Astro.site?.href).href;
 ---
 
 <!-- Global Metadata -->
