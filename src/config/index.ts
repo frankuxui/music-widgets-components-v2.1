@@ -31,4 +31,5 @@ export const SITE_KEYWORDS = [
   'user experience',
   'web widgets',
   'web components library',
+  'modern design',
 ]
