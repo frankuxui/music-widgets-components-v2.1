@@ -1,6 +1,6 @@
 export const SITE_TITLE = 'Music Widgets Components';
 export const SITE_DESCRIPTION = 'Colección de widgets minimalistas pensados para el diseño de interfaces musicales. Ofrece recursos reutilizables con soporte para temas claro y oscuro, ideales para crear experiencias modernas y accesibles.';
-export const OPEN_GRAPH_IMAGE = 'https://music-widgets-components-v2-1.vercel.app/open-graph.jpg';
+export const OPEN_GRAPH_IMAGE = 'https://music-widgets-components-v2-1.vercel.app/open-graph.webp';
 export const SITE_URL = 'https://music-widgets-components-v2-1.vercel.app/';
 export const SITE_KEYWORDS = [
   'widgets',
