@@ -51,6 +51,11 @@ body {
   break-inside: avoid;
 }
 
+.break-inside {
+  -moz-column-break-inside: avoid;
+  break-inside: avoid;
+}
+
 .expo {
   column-count: 1;
   column-gap: 0.75rem;
