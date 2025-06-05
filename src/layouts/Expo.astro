@@ -5,5 +5,9 @@ import Root from "./Root.astro";
 
 <Root>
   <Header />
-  <slot />
+  <main class="mt-10">
+    <div class="px-10 w-full max-w-[160rem] 4xl:columns-9">
+      <slot />
+    </div>
+  </main>
 </Root>

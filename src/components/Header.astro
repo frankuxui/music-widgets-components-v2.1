@@ -1,7 +1,11 @@
 ---
 import { SITE_TITLE } from "@/config";
+import ThemeToggle from "./ThemeToggle.astro";
 ---
 
-<header class="w-full sticky top-0 z-40">
-  <a href="/">{SITE_TITLE}</a>
+<header class="w-full sticky top-0 z-40 h-20 border-b border-foreground/10 bg-background/70 backdrop-blur-3xl">
+  <nav class="h-full px-10 flex items-center justify-between w-full max-w-[160rem] mx-auto">
+    <a href="/" class="font-memdium text-sm font-medium px-6 h-10 inline-flex items-center justify-center rounded bg-foreground/5">{SITE_TITLE}</a>
+    <ThemeToggle />
+  </nav>
 </header>
