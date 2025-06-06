@@ -1,6 +1,6 @@
 # Music Widgets Components
 
-![Music Widgets Components](https://music-widgets-components-v2-1.vercel.app/open-graph.jpg)
+![Music Widgets Components](https://music-widgets-components-v2-1.vercel.app/og.jpg)
 
 Colección de widgets minimalistas pensados para el diseño de interfaces musicales. Ofrece recursos reutilizables con soporte para temas claro y oscuro, ideales para crear experiencias modernas y accesibles.
 
