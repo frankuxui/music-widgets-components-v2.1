@@ -20,6 +20,37 @@ Colección de widgets minimalistas pensados para el diseño de interfaces musica
 - JavaScript
 - TailwindCSS
 
+### Requisitos previos
+
+- Tener instalado [Node.js](https://nodejs.org/) (recomendado versión 18 o superior)
+- Tener instalado [npm](https://www.npmjs.com/)
+
+### Instalación y ejecución
+
+1. Clona el repositorio:
+
+```bash
+git clone https://github.com/frankuxui/music-widgets-components-v2.1.git
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd music-widgets-components-v2.1
+```
+
+3. Instala las dependencias:
+
+```bash
+npm install
+```
+
+4. Inicia el servidor de desarrollo:
+
+```bash
+npm run dev
+```
+
 ## Palabras clave
 
 - widgets
@@ -54,4 +85,4 @@ Colección de widgets minimalistas pensados para el diseño de interfaces musica
 
 ## Autor
 
-**Frank Esteban (FrankUXUI)**
+[**Frank Esteban (FrankUXUI)**](https://frankuxui.dev/)
