@@ -4,6 +4,8 @@
 
 Colección de widgets minimalistas pensados para el diseño de interfaces musicales. Ofrece recursos reutilizables con soporte para temas claro y oscuro, ideales para crear experiencias modernas y accesibles.
 
+En muchas ocasiones queremos implementar widgets, tarjetas o componentes, pero nos falta la inspiración o simplemente ese día la creatividad no está en su mejor momento. Con estos widgets puedes encontrar ideas, referencias y soluciones de diseño minimalista que te ayuden a crear interfaces modernas, accesibles y visualmente atractivas. La idea es inspirar y fomentar la creatividad en el diseño de widgets, tarjetas y componentes reutilizables.
+
 ## Características
 
 - Widgets reutilizables
@@ -82,6 +84,10 @@ npm run dev
 - web widgets
 - web components library
 - modern design
+
+## Licencia
+
+Este proyecto es de uso completamente gratuito para cualquier propósito, personal o comercial. Se agradece el crédito pero no es obligatorio.
 
 ## Autor
 
