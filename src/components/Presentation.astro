@@ -1,7 +1,7 @@
-<div class="w-full flex items-start justify-start flex-row gap-3">
+<div class="w-full flex-none flex items-start justify-start flex-row gap-3 overflow-hidden">
   <!-- Columna 1 -->
   <div class="w-[291px]">
-    <section class="grid grid-cols-2 gap-3">
+    <section class="w-[291px] grid grid-cols-2 gap-3">
       <article class="relative flex items-center justify-between gap-4 border break-inside rounded-xl p-3 mb-3 text-sm overflow-hidden bg-background text-foreground border-border">
         <div class="absolute z-0 pointer-events-none left-1/2 top-0 w-14 h-14 bg-indigo-500/20 blur-2xl"></div>
         <div class="absolute z-0 pointer-events-none left-0 bottom-0 w-14 h-14 bg-rose-500/10 blur-2xl"></div>
@@ -92,7 +92,7 @@
         </div>
       </article>
     </section>
-    <section class="grid grid-cols-2 gap-3 break-inside mb-3" data-filter="multimedia">
+    <section class="w-[291px]l grid grid-cols-2 gap-3 break-inside mb-3" data-filter="multimedia">
       <article class="group relative flex items-center justify-between break-inside rounded-xl text-xs overflow-hidden bg-black text-white">
         <img
           src="https://images.pexels.com/photos/11911967/pexels-photo-11911967.jpeg?w=600&h=800&dpr=2"
@@ -228,7 +228,7 @@
         </section>
       </article>
     </section>
-    <article class="relative gap-4 break-inside rounded-xl mb-3 text-sm overflow-hidden bg-black">
+    <article class="w-[291px] relative gap-4 break-inside rounded-xl mb-3 text-sm overflow-hidden bg-black">
       <img
         src="https://images.pexels.com/photos/8044064/pexels-photo-8044064.jpeg?w=800&h=600&dpr=2"
         data-author="https://www.pexels.com/es-es/@anthonyshkraba-production/"
@@ -423,7 +423,7 @@
         </section>
       </div>
     </article>
-    <article class="relative flex items-center flex-col justify-between gap-4 border break-inside rounded-2xl mb-3 text-sm overflow-hidden bg-background border-border">
+    <article class="w-[291px] relative flex items-center flex-col justify-between gap-4 border break-inside rounded-2xl mb-3 text-sm overflow-hidden bg-background border-border">
       <div class="absolute left-0 bottom-0 w-full z-10">
         <div class="w-full flex flex-col rounded-t-3xl p-4 backdrop-blur-sm bg-black/70 text-white">
           <div class="absolute left-1/2 -translate-x-1/2 w-11 h-1 cursor-n-resize rounded-lg bg-white"></div>
@@ -752,7 +752,7 @@
 
   <!-- Columna 2 -->
   <div class="w-[291px]">
-    <section class="grid grid-cols-2 gap-3">
+    <section class="w-[291px] grid grid-cols-2 gap-3">
       <article class="relative flex flex-col items-start justify-between gap-1 border break-inside rounded-xl p-4 mb-3 text-xs overflow-hidden bg-background text-foreground border-border">
         <button class="absolute top-4 right-4 rounded-full inline-flex items-center justify-center w-8 h-8 transition-all duration-200 hover:bg-foreground/5 focus:ring-2 focus:ring-blue-600">
           <svg data-icon="more-horiz" xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28" fill="currentColor"
@@ -827,7 +827,7 @@
         </section>
       </article>
     </section>
-    <article class="relative flex items-center justify-between gap-4 border break-inside rounded-xl p-4 mb-3 text-xs overflow-hidden bg-background text-foreground border-border">
+    <article class="w-[291px] relative flex items-center justify-between gap-4 border break-inside rounded-xl p-4 mb-3 text-xs overflow-hidden bg-background text-foreground border-border">
       <div class="w-full flex items-center justify-between gap-4">
         <div class="inline-flex items-center gap-3">
           <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/77.jpg" alt="album cover" loading="lazy" />
@@ -855,7 +855,7 @@
       </div>
     </article>
 
-    <section class="break-inside mb-3 gap-3 columns-2 items-start">
+    <section class="w-[291px] break-inside mb-3 gap-3 columns-2 items-start">
       <article class="border break-inside rounded-xl p-3 mb-3 text-xs border-border bg-background text-foreground" data-filter="social">
         <header class="flex items-center justify-between gap-3">
           <img
@@ -1229,7 +1229,7 @@
       </article>
     </section>
 
-    <article class="overflow-hidden grid grid-cols-12 border break-inside rounded-xl text-xs mb-3 divide-x divide-border border-border bg-background text-foreground" data-filter="social">
+    <article class="w-[291px] overflow-hidden grid grid-cols-12 border break-inside rounded-xl text-xs mb-3 divide-x divide-border border-border bg-background text-foreground" data-filter="social">
       <div class="grid flex-1 h-full divide-y col-span-8 divide-border">
         <div class="px-3 pt-3 pb-2 flex flex-col items-start justify-center gap-0.5 overflow-auto">
           <section class="flex items-center justify-start overflow-x-auto gap-2">
@@ -1346,11 +1346,203 @@
         </button>
       </div>
     </article>
+    <section class="w-[291px] break-inside grid grid-cols-2 items-start mb-3 gap-3">
+      <div class="grid gap-3">
+        <article class="border relative overflow-hidden break-inside flex flex-col justify-between rounded-xl p-4 text-xs bg-rose-600 border-rose-600 text-white">
+          <header class="relative flex items-center justify-between">
+            <span class="h-6 px-2 font-semibold rounded-sm flex items-center justify-center bg-white text-rose-700">NEW</span>
+            <button class="flex justify-center items-center rounded-full w-7 h-7 transition-all duration-300 bg-white text-rose-700 focus:ring-2 focus:ring-white">
+              <svg data-icon="play-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+                ><path
+                  d="M340-302.23v-355.54q0-15.84 10.87-26 10.87-10.15 25.37-10.15 4.53 0 9.5 1.31 4.97 1.3 9.49 3.92l279.84 178.15q8.24 5.62 12.35 13.46 4.12 7.85 4.12 17.08 0 9.23-4.12 17.08-4.11 7.84-12.35 13.46L395.23-271.31q-4.53 2.62-9.52 3.92-4.98 1.31-9.51 1.31-14.51 0-25.35-10.15-10.85-10.16-10.85-26Z"
+                ></path></svg
+              >
+            </button>
+          </header>
+          <section class="grid gap-1 mt-3">
+            <h2 class="text-base font-semibold">The best of Dire Straits Album</h2>
+            <p class="text-white/90">Three authors will be present at..</p>
+          </section>
+          <div class="relative flex items-center justify-between mt-3 gap-3">
+            <div class="flex gap-[1px] items-center flex-row justify-between w-full h-9 cursor-pointer">
+              <div class="w-0.5 h-[15%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-white"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-white/50"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-white/50"></div>
+              <div class="w-0.5 h-[15%] rounded-full bg-white/50"></div>
+              <div class="w-0.5 h-[10%] rounded-full bg-white/50"></div>
+            </div>
+            <button class="inline-flex items-center justify-center w-7 h-7 flex-none transition-all duration-300 rounded-full hover:bg-white/30 focus:ring-2 focus:ring-white">
+              <svg data-icon="more-horiz" xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28" fill="currentColor"
+                ><path
+                  d="M213.07-406q-30.59 0-52.21-21.79-21.63-21.78-21.63-52.37 0-30.59 21.79-52.21Q182.8-554 213.39-554q30.59 0 52.22 21.79 21.62 21.78 21.62 52.37 0 30.59-21.78 52.21Q243.66-406 213.07-406Zm266.77 0q-30.59 0-52.21-21.79Q406-449.57 406-480.16q0-30.59 21.79-52.21Q449.57-554 480.16-554q30.59 0 52.21 21.79Q554-510.43 554-479.84q0 30.59-21.79 52.21Q510.43-406 479.84-406Zm266.77 0q-30.59 0-52.22-21.79-21.62-21.78-21.62-52.37 0-30.59 21.78-52.21Q716.34-554 746.93-554q30.59 0 52.21 21.79 21.63 21.78 21.63 52.37 0 30.59-21.79 52.21Q777.2-406 746.61-406Z"
+                ></path></svg
+              >
+            </button>
+          </div>
+        </article>
+        <article class="border break-inside flex flex-col items-start justify-between rounded-xl flex-1 text-xs bg-background border-border">
+          <header class="flex items-start gap-2 p-3">
+            <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/50.jpg" alt="avatar" loading="lazy" />
+            <h2 class="text-sm font-medium">Angy <br /> Cabrera</h2>
+          </header>
+          <div class="relative flex items-center justify-between w-full gap-4 p-3 border-t border-border bg-foreground/2">
+            <button
+              class="absolute -top-3 right-3 ring border-4 border-background ring-border flex-none flex justify-center items-center rounded-full w-7 h-7 transition-all duration-300 bg-foreground text-background focus:ring-2 focus:ring-foreground"
+            >
+              <svg data-icon="play-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+                ><path
+                  d="M340-302.23v-355.54q0-15.84 10.87-26 10.87-10.15 25.37-10.15 4.53 0 9.5 1.31 4.97 1.3 9.49 3.92l279.84 178.15q8.24 5.62 12.35 13.46 4.12 7.85 4.12 17.08 0 9.23-4.12 17.08-4.11 7.84-12.35 13.46L395.23-271.31q-4.53 2.62-9.52 3.92-4.98 1.31-9.51 1.31-14.51 0-25.35-10.15-10.85-10.16-10.85-26Z"
+                ></path></svg
+              >
+            </button>
+            <div class="flex gap-[1px] items-center flex-row justify-between w-full h-9 cursor-pointer">
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[26%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[38%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[50%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[10%] rounded-full bg-foreground/30"></div>
+            </div>
+          </div>
+        </article>
+        <article class="border break-inside flex flex-col items-start justify-between overflow-hidden rounded-xl p-3 gap-2 flex-1 text-xs bg-background border-border">
+          <header class="w-full flex items-center justify-between gap-3">
+            <img class="w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/50.jpg" alt="avatar" loading="lazy" />
+            <button class="w-8 h-8 rounded-full inline-flex flex-none items-center justify-center hover:bg-foreground/5 focus:ring-2 focus:bg-background">
+              <svg data-icon="more-horiz" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="currentColor"
+                ><path
+                  d="M213.07-406q-30.59 0-52.21-21.79-21.63-21.78-21.63-52.37 0-30.59 21.79-52.21Q182.8-554 213.39-554q30.59 0 52.22 21.79 21.62 21.78 21.62 52.37 0 30.59-21.78 52.21Q243.66-406 213.07-406Zm266.77 0q-30.59 0-52.21-21.79Q406-449.57 406-480.16q0-30.59 21.79-52.21Q449.57-554 480.16-554q30.59 0 52.21 21.79Q554-510.43 554-479.84q0 30.59-21.79 52.21Q510.43-406 479.84-406Zm266.77 0q-30.59 0-52.22-21.79-21.62-21.78-21.62-52.37 0-30.59 21.78-52.21Q716.34-554 746.93-554q30.59 0 52.21 21.79 21.63 21.78 21.63 52.37 0 30.59-21.79 52.21Q777.2-406 746.61-406Z"
+                ></path></svg
+              >
+            </button>
+          </header>
+          <section class="w-full flex items-center justify-between gap-3">
+            <h2 class="text-sm font-medium truncate">Endrix Mathias</h2>
+            <svg data-icon="equalizer" xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 -960 960 960" fill="currentColor"
+              ><path
+                d="M263.06-212q-22.06 0-36.56-14.58Q212-241.15 212-263.5v-104q0-21.14 14.63-35.82T263.44-418q21.56 0 36.06 14.68Q314-388.64 314-367.5v104q0 22.35-14.73 36.92Q284.53-212 263.06-212Zm216.92 0q-21.98 0-36.23-14.51-14.25-14.52-14.25-36.78v-434.03q0-21.23 14.56-35.95Q458.63-748 480.31-748q21.69 0 36.44 14.74 14.75 14.74 14.75 35.98v434.02q0 22.27-14.77 36.76-14.77 14.5-36.75 14.5Zm217.08 0q-22.06 0-36.56-14.58Q646-241.15 646-263.4v-244.1q0-21.14 14.63-35.82T697.44-558q21.56 0 36.06 14.68Q748-528.64 748-507.5v244.1q0 22.25-14.73 36.82Q718.53-212 697.06-212Z"
+              ></path></svg
+            >
+          </section>
+        </article>
+      </div>
+      <div class="flex flex-col gap-3">
+        <article class="border break-inside flex flex-col items-start justify-between gap-2 rounded-xl p-3 flex-1 text-xs bg-background border-border">
+          <header class="flex items-start gap-2">
+            <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy" />
+            <h2 class="text-sm font-medium">Jhonatan <br /> Smith</h2>
+          </header>
+          <div class="flex items-center justify-between w-full gap-4">
+            <div class="flex gap-[1px] items-center flex-row justify-between w-full h-9 cursor-pointer">
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[10%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+            </div>
+            <button class="flex-none flex justify-center items-center rounded-full w-7 h-7 transition-all duration-300 bg-foreground text-background focus:ring-2 focus:ring-foreground">
+              <svg data-icon="pause" xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 -960 960 960" fill="currentColor"
+                ><path
+                  d="M588.65-240.92q-12.86 0-21.52-9.08-8.67-9.08-8.67-21.12v-417.76q0-12.04 8.67-21.12 8.66-9.08 21.52-9.08h85.58q12.03 0 21.11 9.08t9.08 21.12v417.76q0 12.04-9.08 21.12-9.08 9.08-21.11 9.08h-85.58Zm-302 0q-12.86 0-21.52-9.08-8.67-9.08-8.67-21.12v-417.76q0-12.04 8.67-21.12 8.66-9.08 21.52-9.08H373q11.44 0 20.81 9.08 9.38 9.08 9.38 21.12v417.76q0 12.04-9.38 21.12-9.37 9.08-20.81 9.08h-86.35Z"
+                ></path></svg
+              >
+            </button>
+          </div>
+        </article>
+        <article class="border break-inside flex flex-col items-start justify-between gap-2 rounded-xl p-3 flex-1 text-xs bg-background border-border">
+          <header class="flex items-start gap-2">
+            <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/40.jpg" alt="avatar" loading="lazy" />
+            <h2 class="text-sm font-medium">Marianna <br /> Green</h2>
+          </header>
+          <div class="flex items-center justify-between w-full gap-4">
+            <div class="flex gap-[1px] items-center flex-row justify-between w-full h-9 cursor-pointer">
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[40%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[15%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[30%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[20%] rounded-full bg-foreground/30"></div>
+              <div class="w-0.5 h-[10%] rounded-full bg-foreground/30"></div>
+            </div>
+            <button class="flex-none flex justify-center items-center rounded-full w-7 h-7 transition-all duration-300 bg-foreground text-background focus:ring-2 focus:ring-foreground">
+              <svg data-icon="play-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+                ><path
+                  d="M340-302.23v-355.54q0-15.84 10.87-26 10.87-10.15 25.37-10.15 4.53 0 9.5 1.31 4.97 1.3 9.49 3.92l279.84 178.15q8.24 5.62 12.35 13.46 4.12 7.85 4.12 17.08 0 9.23-4.12 17.08-4.11 7.84-12.35 13.46L395.23-271.31q-4.53 2.62-9.52 3.92-4.98 1.31-9.51 1.31-14.51 0-25.35-10.15-10.85-10.16-10.85-26Z"
+                ></path></svg
+              >
+            </button>
+          </div>
+        </article>
+        <article class="border relative overflow-hidden break-inside flex flex-col justify-between rounded-xl p-4 text-xs bg-violet-600 border-violet-600 text-white">
+          <header class="relative flex items-center justify-between">
+            <span class="h-6 px-2 font-semibold rounded-sm flex items-center justify-center bg-white text-violet-700">NEW</span>
+            <svg data-icon="equalizer" xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 -960 960 960" fill="currentColor"
+              ><path
+                d="M263.06-212q-22.06 0-36.56-14.58Q212-241.15 212-263.5v-104q0-21.14 14.63-35.82T263.44-418q21.56 0 36.06 14.68Q314-388.64 314-367.5v104q0 22.35-14.73 36.92Q284.53-212 263.06-212Zm216.92 0q-21.98 0-36.23-14.51-14.25-14.52-14.25-36.78v-434.03q0-21.23 14.56-35.95Q458.63-748 480.31-748q21.69 0 36.44 14.74 14.75 14.74 14.75 35.98v434.02q0 22.27-14.77 36.76-14.77 14.5-36.75 14.5Zm217.08 0q-22.06 0-36.56-14.58Q646-241.15 646-263.4v-244.1q0-21.14 14.63-35.82T697.44-558q21.56 0 36.06 14.68Q748-528.64 748-507.5v244.1q0 22.25-14.73 36.82Q718.53-212 697.06-212Z"
+              ></path></svg
+            >
+          </header>
+          <section class="grid gap-1 mt-3">
+            <h2 class="text-lg font-semibold">System of <br /> a Down</h2>
+            <p class="text-white/90">Three authors will be present at..</p>
+          </section>
+          <section class="w-full mt-3">
+            <div class="w-full rounded p-1 flex items-center gap-2 justify-start bg-white">
+              <img
+                src="https://images.unsplash.com/photo-1489602765044-5d661da88b24?q=200&w=400"
+                alt="album cover"
+                class="w-full max-w-10 min-h-10 object-cover rounded"
+                loading="lazy"
+                data-author="https://unsplash.com/es/@arstyy"
+              />
+              <div class="flex-1 grid">
+                <h3 class="font-medium truncate text-black">System of a Down</h3>
+                <p class="truncate text-black/70">Toxicity</p>
+              </div>
+            </div>
+          </section>
+        </article>
+      </div>
+    </section>
   </div>
 
   <!-- Column 3 -->
   <div class="w-[291px]">
-    <article class="overflow-hidden grid grid-cols-12 border break-inside rounded-xl text-xs mb-3 divide-x divide-border border-border bg-background text-foreground" data-filter="social">
+    <article class="w-[291px] overflow-hidden grid grid-cols-12 border break-inside rounded-xl text-xs mb-3 divide-x divide-border border-border bg-background text-foreground" data-filter="social">
       <div class="grid flex-1 h-full divide-y col-span-8 divide-border">
         <div class="p-3 flex flex-col items-start justify-center">
           <div class="flex items-center w-full justify-between gap-2">
@@ -1460,7 +1652,7 @@
       </div>
     </article>
 
-    <article class="relative grid grid-cols-12 break-inside rounded-xl mb-3 text-xs overflow-hidden text-black">
+    <article class="w-[291px] relative grid grid-cols-12 break-inside rounded-xl mb-3 text-xs overflow-hidden text-black">
       <div class="relative col-span-5">
         <img
           src="https://images.pexels.com/photos/7586587/pexels-photo-7586587.jpeg?w=600&h=800&dpr=2"
@@ -1523,7 +1715,7 @@
         </section>
       </div>
     </article>
-    <article class="flex flex-col break-inside rounded-xl mb-3 px-4 pb-4 pt-8 bg-black text-white backdrop-blur-sm">
+    <article class="w-[291px] flex flex-col break-inside rounded-xl mb-3 px-4 pb-4 pt-8 bg-black text-white backdrop-blur-sm">
       <div class="absolute left-1/2 -translate-x-1/2 w-11 top-3.5 rounded-full h-1 bg-white/20 cursor-row-resize"></div>
       <div class="flex items-center justify-between text-left">
         <div><h1 class="font-semibold text-sm">The best of Dire Straits</h1> <p class="text-white">Mr Dire Straits</p></div>
@@ -1567,7 +1759,7 @@
         </button>
       </div>
     </article>
-    <section class="columns-2 gap-3 items-start break-inside">
+    <section class="w-[291px] columns-2 gap-3 items-start break-inside">
       <article class="relative flex items-center flex-col justify-start gap-4 break-inside rounded-xl p-3 mb-3 text-xs overflow-hidden bg-blue-700">
         <header class="w-full flex items-center justify-between">
           <p class="text-white">May 30, 2022</p>
@@ -1792,7 +1984,7 @@
         </section>
       </article>
     </section>
-    <article class="relative flex items-center justify-between gap-4 break-inside rounded-2xl mb-3 text-xs overflow-hidden bg-background">
+    <article class="w-[291px] relative flex items-center justify-between gap-4 break-inside rounded-2xl mb-3 text-xs overflow-hidden bg-background">
       <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-black via-black to-transparent">
         <div class="w-full h-full flex items-end justify-center px-4 pb-8">
           <div class="relative z-10 flex flex-col text-center mx-auto justify-center items-center">
@@ -1914,11 +2106,53 @@
         />
       </div>
     </article>
+    <section class="w-[291px] grid grid-cols-2 gap-3">
+      <article class="relative w-full break-inside rounded-xl overflow-hidden max-h-44 text-sm mb-3 text-white">
+        <img
+          src="https://images.pexels.com/photos/1317374/pexels-photo-1317374.jpeg?w=600&h=800&dpr=2"
+          data-author="Peter Spencer"
+          data-author-profile="https://www.pexels.com/es-es/@f4photography/"
+          loading="lazy"
+          alt="Photo by Peter Spencer on Pexels"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute bottom-0 left-0 w-full p-4 min-h-20 flex items-end bg-gradient-to-t from-black via-black/80 to-transparent">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 inline-flex items-center justify-center rounded-full bg-rose-600 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 28 28"
+                ><path fill="currentColor" d="M10.138 3.382C8.304 2.31 6 3.632 6 5.756v16.489c0 2.123 2.304 3.445 4.138 2.374l14.697-8.59c1.552-.907 1.552-3.15 0-4.057z"></path></svg
+              >
+            </span>
+            <span class="text-sm font-bold">83.4 K</span>
+          </div>
+        </div>
+      </article>
+      <article class="relative w-full break-inside rounded-xl overflow-hidden max-h-44 text-sm mb-3 text-white">
+        <img
+          src="https://images.pexels.com/photos/8044178/pexels-photo-8044178.jpeg?w=600&h=800&dpr=2"
+          data-author="ANTONI SHKRABA production"
+          data-author-profile="https://www.pexels.com/es-es/@anthonyshkraba-production/"
+          loading="lazy"
+          alt="Photo by ANTONI SHKRABA production on Pexels"
+          class="w-full h-full object-cover"
+        />
+        <div class="absolute bottom-0 left-0 w-full p-4 min-h-20 flex items-end bg-gradient-to-t from-black via-black/80 to-transparent">
+          <div class="flex items-center gap-2">
+            <span class="w-5 h-5 inline-flex items-center justify-center rounded-full bg-rose-600 text-white">
+              <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 28 28"
+                ><path fill="currentColor" d="M10.138 3.382C8.304 2.31 6 3.632 6 5.756v16.489c0 2.123 2.304 3.445 4.138 2.374l14.697-8.59c1.552-.907 1.552-3.15 0-4.057z"></path></svg
+              >
+            </span>
+            <span class="text-sm font-bold">22 K</span>
+          </div>
+        </div>
+      </article>
+    </section>
   </div>
 
   <!-- Columna 4 -->
   <div class="w-[291px]">
-    <section class="columns-2 gap-3 mb-3 break-inside">
+    <section class="w-[291px] columns-2 gap-3 mb-3 break-inside">
       <article class="w-full border break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-xs bg-background border-border">
         <header>
           <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 bg-foreground text-background">
@@ -2127,7 +2361,7 @@
         </div>
       </article>
     </section>
-    <article class="border overflow-hidden break-inside flex flex-row items-start justify-start rounded-xl mb-3 text-xs bg-background text-foreground border-border">
+    <article class="w-[291px] border overflow-hidden break-inside flex flex-row items-start justify-start rounded-xl mb-3 text-xs bg-background text-foreground border-border">
       <img
         class="w-full max-w-24 flex-none h-full max-h-28 object-cover"
         src="https://images.pexels.com/photos/1822503/pexels-photo-1822503.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
@@ -2162,7 +2396,7 @@
       </section>
     </article>
 
-    <article class="relative border overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-xs bg-background text-foreground border-border">
+    <article class="w-[291px] relative border overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-xs bg-background text-foreground border-border">
       <div class="absolute left-1/2 top-0 w-14 h-14 pointer-events-none bg-rose-500/20 blur-2xl"></div>
       <div class="absolute right-0 top-0 w-14 h-14 pointer-events-none bg-yellow-500/30 blur-2xl"></div>
       <div class="relative col-span-4">
@@ -2203,7 +2437,7 @@
       </div>
     </article>
 
-    <article class="relative border overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-xs bg-background text-foreground border-border">
+    <article class="w-[291px] relative border overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-xs bg-background text-foreground border-border">
       <div class="relative col-span-4">
         <img
           class="w-full max-w-full h-full max-h-[7rem] object-cover gap-4"
@@ -2265,7 +2499,7 @@
       </div>
     </article>
 
-    <article class="border break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-xs bg-background text-foreground border-border">
+    <article class="w-[291px] border break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-xs bg-background text-foreground border-border">
       <div class="col-span-4">
         <img
           src="https://images.pexels.com/photos/2601189/pexels-photo-2601189.jpeg?w=300&h=400&dpr=2"
@@ -2288,6 +2522,129 @@
             ></path></svg
           >
         </button>
+      </div>
+    </article>
+    <article class="w-[291px] relative flex items-center justify-between gap-4 border break-inside rounded-xl p-4 mb-3 text-xs overflow-hidden bg-background text-foreground border-border">
+      <div class="flex flex-row items-start gap-4">
+        <div class="relative w-24 h-24 flex-none rounded-full overflow-hidden">
+          <img
+            src="https://images.pexels.com/photos/4634517/pexels-photo-4634517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            data-author="Jo Kassis"
+            data-author-profile="https://www.pexels.com/es-es/@jokassis/"
+            alt="album cover"
+            loading="lazy"
+            class="w-full h-full object-cover"
+          />
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full border-4 ring-2 border-background ring-foreground bg-foreground"></span>
+        </div>
+        <div class="flex flex-col items-start">
+          <h2 class="text-sm font-semibold">Best Ballads</h2>
+          <div class="flex items-center gap-1 text-foreground/70">
+            <span>17 songs</span>
+            <span>&middot;</span>
+            <span>1 hr 3 min</span>
+          </div>
+          <div class="flex items-center gap-2 mt-1">
+            <div class="inline-flex items-center justify-start -space-x-1">
+              <svg data-icon="star-fill" class="fill-rose-500" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"
+                ><path
+                  d="m480-292.46-155.61 93.84q-8.7 5.08-17.43 4.27-8.73-.81-15.8-5.88-7.08-5.08-10.93-13.27-3.84-8.19-1.23-18.12l41.31-176.69-137.38-118.92q-7.7-6.69-9.81-15.5-2.12-8.81 1.11-17.12 3.23-8.3 9.31-13.57t16.62-6.89l181.3-15.84L451.85-763q3.84-9.31 11.65-13.77 7.81-4.46 16.5-4.46 8.69 0 16.5 4.46 7.81 4.46 11.65 13.77l70.39 166.85 181.3 15.84q10.54 1.62 16.62 6.89 6.08 5.27 9.31 13.57 3.23 8.31 1.11 17.12-2.11 8.81-9.81 15.5L639.69-408.31 681-231.62q2.61 9.93-1.23 18.12-3.85 8.19-10.93 13.27-7.07 5.07-15.8 5.88-8.73.81-17.43-4.27L480-292.46Z"
+                ></path></svg
+              >
+              <svg data-icon="star-fill" class="fill-rose-500" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"
+                ><path
+                  d="m480-292.46-155.61 93.84q-8.7 5.08-17.43 4.27-8.73-.81-15.8-5.88-7.08-5.08-10.93-13.27-3.84-8.19-1.23-18.12l41.31-176.69-137.38-118.92q-7.7-6.69-9.81-15.5-2.12-8.81 1.11-17.12 3.23-8.3 9.31-13.57t16.62-6.89l181.3-15.84L451.85-763q3.84-9.31 11.65-13.77 7.81-4.46 16.5-4.46 8.69 0 16.5 4.46 7.81 4.46 11.65 13.77l70.39 166.85 181.3 15.84q10.54 1.62 16.62 6.89 6.08 5.27 9.31 13.57 3.23 8.31 1.11 17.12-2.11 8.81-9.81 15.5L639.69-408.31 681-231.62q2.61 9.93-1.23 18.12-3.85 8.19-10.93 13.27-7.07 5.07-15.8 5.88-8.73.81-17.43-4.27L480-292.46Z"
+                ></path></svg
+              >
+              <svg data-icon="star-fill" class="fill-rose-500" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"
+                ><path
+                  d="m480-292.46-155.61 93.84q-8.7 5.08-17.43 4.27-8.73-.81-15.8-5.88-7.08-5.08-10.93-13.27-3.84-8.19-1.23-18.12l41.31-176.69-137.38-118.92q-7.7-6.69-9.81-15.5-2.12-8.81 1.11-17.12 3.23-8.3 9.31-13.57t16.62-6.89l181.3-15.84L451.85-763q3.84-9.31 11.65-13.77 7.81-4.46 16.5-4.46 8.69 0 16.5 4.46 7.81 4.46 11.65 13.77l70.39 166.85 181.3 15.84q10.54 1.62 16.62 6.89 6.08 5.27 9.31 13.57 3.23 8.31 1.11 17.12-2.11 8.81-9.81 15.5L639.69-408.31 681-231.62q2.61 9.93-1.23 18.12-3.85 8.19-10.93 13.27-7.07 5.07-15.8 5.88-8.73.81-17.43-4.27L480-292.46Z"
+                ></path></svg
+              >
+              <svg data-icon="star-outline" class="fill-rose-500" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"
+                ><path
+                  d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143Zm126-5.46-155.61 93.84q-8.7 5.08-17.43 4.27-8.73-.81-15.8-5.88-7.08-5.08-10.93-13.27-3.84-8.19-1.23-18.12l41.31-176.69-137.38-118.92q-7.7-6.69-9.81-15.5-2.12-8.81 1.11-17.12 3.23-8.3 9.31-13.57t16.62-6.89l181.3-15.84L451.85-763q3.84-9.31 11.65-13.77 7.81-4.46 16.5-4.46 8.69 0 16.5 4.46 7.81 4.46 11.65 13.77l70.39 166.85 181.3 15.84q10.54 1.62 16.62 6.89 6.08 5.27 9.31 13.57 3.23 8.31 1.11 17.12-2.11 8.81-9.81 15.5L639.69-408.31 681-231.62q2.61 9.93-1.23 18.12-3.85 8.19-10.93 13.27-7.07 5.07-15.8 5.88-8.73.81-17.43-4.27L480-292.46ZM480-470Z"
+                ></path></svg
+              >
+              <svg data-icon="star-outline" class="fill-rose-500" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"
+                ><path
+                  d="m354-287 126-76 126 77-33-144 111-96-146-13-58-136-58 135-146 13 111 97-33 143Zm126-5.46-155.61 93.84q-8.7 5.08-17.43 4.27-8.73-.81-15.8-5.88-7.08-5.08-10.93-13.27-3.84-8.19-1.23-18.12l41.31-176.69-137.38-118.92q-7.7-6.69-9.81-15.5-2.12-8.81 1.11-17.12 3.23-8.3 9.31-13.57t16.62-6.89l181.3-15.84L451.85-763q3.84-9.31 11.65-13.77 7.81-4.46 16.5-4.46 8.69 0 16.5 4.46 7.81 4.46 11.65 13.77l70.39 166.85 181.3 15.84q10.54 1.62 16.62 6.89 6.08 5.27 9.31 13.57 3.23 8.31 1.11 17.12-2.11 8.81-9.81 15.5L639.69-408.31 681-231.62q2.61 9.93-1.23 18.12-3.85 8.19-10.93 13.27-7.07 5.07-15.8 5.88-8.73.81-17.43-4.27L480-292.46ZM480-470Z"
+                ></path></svg
+              >
+            </div>
+            <span class="text-xs font-semibold">3.5</span>
+          </div>
+          <button class="inline-flex px-2 gap-1 h-7 border rounded-full items-center justify-center mt-2 border-border">
+            <svg data-icon="play-circle-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+              ><path
+                d="M431.77-345.39 606-457.31q12.84-8.15 12.84-22.65 0-14.5-12.84-22.73L431.77-614.61q-13.46-9.23-27.62-1.48Q390-608.34 390-591.92v223.84q0 16.42 14.15 24.17 14.16 7.75 27.62-1.48ZM480.07-100q-78.84 0-148.21-29.92t-120.68-81.21q-51.31-51.29-81.25-120.63Q100-401.1 100-479.93q0-78.84 29.92-148.21t81.21-120.68q51.29-51.31 120.63-81.25Q401.1-860 479.93-860q78.84 0 148.21 29.92t120.68 81.21q51.31 51.29 81.25 120.63Q860-558.9 860-480.07q0 78.84-29.92 148.21t-81.21 120.68q-51.29 51.31-120.63 81.25Q558.9-100 480.07-100Z"
+              ></path></svg
+            >
+            <span class="text-xs font-semibold uppercase"> Play album </span>
+          </button>
+        </div>
+      </div>
+    </article>
+
+    <article class="w-[291px] relative flex items-center justify-between gap-4 border break-inside rounded-xl p-4 mb-3 text-xs overflow-hidden bg-background text-foreground border-border">
+      <div class="pointer-events-none z-0 absolute left-0 top-0 w-14 h-14 bg-emerald-500/20 blur-2xl"></div>
+      <div class="pointer-events-none z-0 absolute right-0 top-0 w-14 h-14 bg-yellow-500/10 blur-2xl"></div>
+      <div class="w-full flex items-center gap-2">
+        <div class="relative w-14 h-14 flex-none rounded-full overflow-hidden">
+          <img
+            src="https://images.pexels.com/photos/1625355/pexels-photo-1625355.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            data-author="Anderson Guerra"
+            data-author-profile="https://www.pexels.com/es-es/@andersonguerra/"
+            alt="album cover"
+            loading="lazy"
+            class="flex-none w-full h-full object-cover"
+          />
+          <span class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-4 h-4 rounded-full bg-white dark:bg-gray-950"></span>
+        </div>
+        <div class="w-full flex justify-between items-center flex-1">
+          <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 hover:bg-foreground/5">
+            <svg
+              data-icon="repeat"
+              xmlns="http://www.w3.org/2000/svg"
+              width="18"
+              height="18"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"><path d="m17 2 4 4-4 4"></path><path d="M3 11v-1a4 4 0 0 1 4-4h14"></path><path d="m7 22-4-4 4-4"></path><path d="M21 13v1a4 4 0 0 1-4 4H3"></path></svg
+            >
+          </button>
+          <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 hover:bg-foreground/5">
+            <svg data-icon="skip-previous-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+              ><path
+                d="M244.62-297.69v-364.62q0-12.75 8.63-21.37 8.62-8.63 21.38-8.63t21.37 8.63q8.62 8.62 8.62 21.37v364.62q0 12.75-8.63 21.37-8.63 8.63-21.39 8.63-12.75 0-21.37-8.63-8.61-8.62-8.61-21.37Zm414.53-7.16L441.92-450.08q-8.23-5.61-12.15-13.15T425.85-480q0-9.23 3.92-16.77 3.92-7.54 12.15-13.15l217.23-145.23q4.62-3.62 9.85-4.62 5.23-1 10.23-1 14.46 0 25.31 9.94 10.84 9.95 10.84 26.22v289.22q0 16.27-10.84 26.22-10.85 9.94-25.31 9.94-5 0-10.23-1t-9.85-4.62Z"
+              ></path></svg
+            >
+          </button>
+          <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 bg-foreground text-background">
+            <svg data-icon="play-fill" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="currentColor"
+              ><path
+                d="M340-302.23v-355.54q0-15.84 10.87-26 10.87-10.15 25.37-10.15 4.53 0 9.5 1.31 4.97 1.3 9.49 3.92l279.84 178.15q8.24 5.62 12.35 13.46 4.12 7.85 4.12 17.08 0 9.23-4.12 17.08-4.11 7.84-12.35 13.46L395.23-271.31q-4.53 2.62-9.52 3.92-4.98 1.31-9.51 1.31-14.51 0-25.35-10.15-10.85-10.16-10.85-26Z"
+              ></path></svg
+            >
+          </button>
+          <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 hover:bg-foreground/5">
+            <svg data-icon="skip-previous-fill" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"
+              ><path
+                d="M655.38-297.69v-364.62q0-12.75 8.63-21.37 8.63-8.63 21.39-8.63 12.75 0 21.37 8.63 8.61 8.62 8.61 21.37v364.62q0 12.75-8.63 21.37-8.62 8.63-21.38 8.63T664-276.32q-8.62-8.62-8.62-21.37Zm-410.76-37.7v-289.22q0-16.27 10.84-26.22 10.85-9.94 25.31-9.94 5 0 10.23 1t9.85 4.62l217.23 145.23q8.23 5.61 12.15 13.15t3.92 16.77q0 9.23-3.92 16.77-3.92 7.54-12.15 13.15L300.85-304.85q-4.62 3.62-9.85 4.62-5.23 1-10.23 1-14.46 0-25.31-9.94-10.84-9.95-10.84-26.22Z"
+              ></path></svg
+            >
+          </button>
+          <button class="flex justify-center items-center rounded-full w-8 h-8 transition-colors duration-300 hover:bg-foreground/5">
+            <svg data-icon="equalizer" xmlns="http://www.w3.org/2000/svg" height="26" width="26" viewBox="0 -960 960 960" fill="currentColor"
+              ><path
+                d="M263.06-212q-22.06 0-36.56-14.58Q212-241.15 212-263.5v-104q0-21.14 14.63-35.82T263.44-418q21.56 0 36.06 14.68Q314-388.64 314-367.5v104q0 22.35-14.73 36.92Q284.53-212 263.06-212Zm216.92 0q-21.98 0-36.23-14.51-14.25-14.52-14.25-36.78v-434.03q0-21.23 14.56-35.95Q458.63-748 480.31-748q21.69 0 36.44 14.74 14.75 14.74 14.75 35.98v434.02q0 22.27-14.77 36.76-14.77 14.5-36.75 14.5Zm217.08 0q-22.06 0-36.56-14.58Q646-241.15 646-263.4v-244.1q0-21.14 14.63-35.82T697.44-558q21.56 0 36.06 14.68Q748-528.64 748-507.5v244.1q0 22.25-14.73 36.82Q718.53-212 697.06-212Z"
+              ></path></svg
+            >
+          </button>
+        </div>
       </div>
     </article>
   </div>

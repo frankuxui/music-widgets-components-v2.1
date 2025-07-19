@@ -1,79 +1,52 @@
-<input
-  type="checkbox"
-  data-toggle="theme"
-  class="h-[20px] px-[3px] w-[38px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-4 before:w-4 before:rounded-full before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-emerald-500 checked:bg-emerald-500 checked:before:translate-x-full checked:before:bg-white"
-/>
-
+<button data-toggle="theme" class="w-10 h-10 inline-flex items-center justify-center">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+    ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0"></path><path d="M12 3l0 18"></path><path d="M12 9l4.65 -4.65"></path><path
+      d="M12 14.3l7.37 -7.37"></path><path d="M12 19.6l8.85 -8.85"></path></svg
+  >
+</button>
 <script>
   const themeToggle = document.querySelectorAll('[data-toggle="theme"]');
-  const prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-  const prefersLight = window.matchMedia("(prefers-color-scheme: light)");
-  const prefersNone = window.matchMedia("(prefers-color-scheme: no-preference)");
 
-  const setTheme = (theme: string) => {
+  // Theme
+
+  const applyTheme = (theme: string) => {
     if (theme === "dark") {
       document.documentElement.classList.add("dark");
       document.documentElement.classList.remove("light");
-      themeToggle.forEach((toggle) => {
-        (toggle as HTMLInputElement).checked = true;
-      });
     } else {
       document.documentElement.classList.add("light");
       document.documentElement.classList.remove("dark");
-      themeToggle.forEach((toggle) => {
-        (toggle as HTMLInputElement).checked = false;
-      });
     }
   };
 
-  if (prefersDark.matches) {
-    setTheme("dark");
-  }
-  if (prefersLight.matches) {
-    setTheme("light");
-  }
-  if (prefersNone.matches) {
-    setTheme("light");
-  }
-
-  // Save the user's theme preference to localStorage
-
+  // Leer tema guardado o sistema
   const savedTheme = localStorage.getItem("theme");
 
   if (savedTheme) {
-    setTheme(savedTheme);
+    applyTheme(savedTheme);
+  } else {
+    // Detectar preferencia del sistema
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      applyTheme("dark");
+    } else {
+      applyTheme("light");
+    }
   }
 
+  // Toggle del tema al hacer click
   themeToggle.forEach((toggle) => {
-    toggle.addEventListener("change", (e: Event) => {
-      const isChecked = (e.target as HTMLInputElement).checked;
-      const theme = localStorage.getItem("theme");
-
-      if (theme === "dark") {
-        localStorage.setItem("theme", "light");
-        setTheme("light");
-      } else {
-        localStorage.setItem("theme", "dark");
-        setTheme("dark");
-      }
+    toggle.addEventListener("click", () => {
+      const currentTheme = document.documentElement.classList.contains("dark") ? "dark" : "light";
+      const newTheme = currentTheme === "dark" ? "light" : "dark";
+      applyTheme(newTheme);
+      localStorage.setItem("theme", newTheme);
     });
   });
 
-  prefersDark.addEventListener("change", (e) => {
-    if (e.matches) {
-      setTheme("dark");
-    }
-  });
-
-  prefersLight.addEventListener("change", (e) => {
-    if (e.matches) {
-      setTheme("light");
-    }
-  });
-
-  prefersNone.addEventListener("change", (e) => {
-    if (e.matches) {
-      setTheme("light");
+  // Escuchar cambios en preferencia del sistema
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", (e) => {
+    if (!localStorage.getItem("theme")) {
+      applyTheme(e.matches ? "dark" : "light");
     }
   });
 </script>
