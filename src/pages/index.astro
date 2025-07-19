@@ -2,9 +2,67 @@
 import Presentation from "@/components/Presentation.astro";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import Root from "@/layouts/Root.astro";
+import WidgetAboutMe from "@/components/WidgetAboutMe.astro";
 ---
 
+<style>
+  body {
+    overflow: hidden;
+  }
+</style>
+
 <Root>
+  <main class="w-full min-h-screen overflow-hidden">
+    <div class="w-full grid lg:grid-cols-2 gap-10 divide-x divide-border">
+      <div class="w-full h-full flex items-center lg:justify-end p-10">
+        <div class="w-full h-full flex flex-col items-start justify-center lg:max-w-3xl">
+          <div class="block">
+            <ThemeToggle />
+          </div>
+          <h1 class="inline w-full font-black !leading-tight text-5xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl">
+            <span>Music widgets</span>
+            <br />
+            components with
+            <br />
+            <span class="bg-gradient-to-r from-blue-600 via-green-500 to-cyan-500 inline-block text-transparent bg-clip-text">Tailwind CSS</span>
+          </h1>
+
+          <div class="mt-4">
+            <WidgetAboutMe />
+          </div>
+
+          <p class="mt-4 leading-8 text-lg">
+            Componentes modernos, minimalistas y fáciles de personalizar, perfectos para que experimentes y le des vida a tus ideas musicales en la web. ¡Explora, combina estilos y crea algo increíble
+            que se vea bien en cualquier dispositivo!
+          </p>
+
+          <div class="flex items-center justify-start gap-2 mt-6" data-astro-source-file="D:/frankuxui/widgets-components-tailwind-v4/src/components/Hero.astro" data-astro-source-loc="23:62">
+            <a
+              href="/widgets"
+              class="px-6 h-10 rounded-full inline-flex items-center justify-center font-medium text-base border-2 transition-all duration-300 border-transparent bg-foreground text-background hover:bg-foreground/90"
+            >
+              Widgets
+            </a>
+            <a
+              href="https://github.com/frankuxui/widgets-components-tailwind-v4"
+              target="_blank"
+              class="px-6 h-10 rounded-full inline-flex items-center justify-center font-medium text-base border-2 transition-all duration-300 border-foreground/20 bg-background text-foreground hover:ring-2 hover:border-transparent"
+            >
+              Github
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="flex-none overflow-hidden border-border">
+        <div class="w-full h-screen overflow-y-auto overflow-x-hidden pt-10">
+          <Presentation />
+        </div>
+      </div>
+    </div>
+  </main>
+</Root>
+
+<!-- <Root>
   <main>
     <div class="w-full h-screen">
       <section class="overflow-hidden w-full mx-auto max-w-full">
@@ -20,10 +78,13 @@ import Root from "@/layouts/Root.astro";
                 with <span class="inline bg-gradient-to-r from-cyan-500 via-cyan-500 to-green-500 text-transparent bg-clip-text">Tailwind CSS</span>
               </h1>
 
+              <div class="mt-4">
+                <WidgetAboutMe />
+              </div>
+
               <p class="mt-4 sm:mt-8 text-lg sm:text-xl">
-                This collection of music widget components built with Tailwind CSS allows you to easily integrate custom music controls into your web applications. Designed with a minimalist
-                approach, these widgets are highly customizable and adaptable to any project. Enhance the user experience with a modern and functional design that fits seamlessly on any
-                device.
+                This collection of music widget components built with Tailwind CSS allows you to easily integrate custom music controls into your web applications. Designed with a minimalist approach,
+                these widgets are highly customizable and adaptable to any project. Enhance the user experience with a modern and functional design that fits seamlessly on any device.
               </p>
               <div class="mt-8 flex items-center w-full sm:justify-start gap-1 sm:gap-3">
                 <a
@@ -36,8 +97,7 @@ import Root from "@/layouts/Root.astro";
                       <path
                         clip-rule="evenodd"
                         fill-rule="evenodd"
-                        d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"
-                      ></path>
+                        d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"></path>
                     </svg>
                   </span>
                 </a>
@@ -70,3 +130,4 @@ import Root from "@/layouts/Root.astro";
     </div>
   </main>
 </Root>
+ -->
