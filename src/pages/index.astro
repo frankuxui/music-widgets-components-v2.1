@@ -3,6 +3,9 @@ import Presentation from "@/components/Presentation.astro";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import Root from "@/layouts/Root.astro";
 import WidgetAboutMe from "@/components/WidgetAboutMe.astro";
+
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const urlFor = (path = "") => `${base}${path.replace(/^\//, "")}`;
 ---
 
 <style>
@@ -41,13 +44,13 @@ import WidgetAboutMe from "@/components/WidgetAboutMe.astro";
 
             <div class="flex items-center justify-start gap-2 mt-6" data-astro-source-file="D:/frankuxui/widgets-components-tailwind-v4/src/components/Hero.astro" data-astro-source-loc="23:62">
               <a
-                href="/widgets"
+                href={urlFor("widgets")}
                 class="px-6 h-10 rounded-full inline-flex items-center justify-center font-medium text-base border-2 transition-all duration-300 border-transparent bg-foreground text-background hover:bg-foreground/90"
               >
                 Widgets
               </a>
               <a
-                href="https://github.com/frankuxui/widgets-components-tailwind-v4"
+                href="https://github.com/frankuxui/music-widgets-components-v2.1"
                 target="_blank"
                 class="px-6 h-10 rounded-full inline-flex items-center justify-center font-medium text-base border-2 transition-all duration-300 border-foreground/20 bg-background text-foreground hover:ring-2 hover:border-transparent"
               >

@@ -37,7 +37,7 @@ export const siteConfig = {
     alternateName: 'FrankUXUI',
   },
   ogImage: '/og.jpg',
-  logo: '/frankuxui_frontend_developer_ux_ui_designer_logo.png',
+  logo: '/favicon.png',
   social: {
     github: 'https://github.com/frankuxui',
     linkedin: 'https://www.linkedin.com/in/frankuxui',

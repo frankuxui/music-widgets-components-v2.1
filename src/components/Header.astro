@@ -1,11 +1,13 @@
 ---
 import { siteConfig } from "@/config";
 import ThemeToggle from "./ThemeToggle.astro";
+
+const base = import.meta.env.BASE_URL.endsWith("/") ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 ---
 
 <header class="w-full sticky top-0 z-40 h-16 border-b border-foreground/10 bg-background/70 backdrop-blur-3xl">
   <nav class="h-full px-10 flex items-center justify-between w-full max-w-[160rem] mx-auto">
-    <a href="/" class="font-memdium text-sm font-medium px-6 h-10 inline-flex items-center justify-center rounded bg-foreground/5">{siteConfig.title}</a>
+    <a href={base} class="font-memdium text-sm font-medium px-6 h-10 inline-flex items-center justify-center rounded bg-foreground/5">{siteConfig.title}</a>
     <ThemeToggle />
   </nav>
 </header>
